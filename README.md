@@ -1,53 +1,58 @@
-# Türkiye in Japan — stable UI starter v0.1
+# Türkiye in Japan — UI starter v0.1
 
-## Why this version is intentionally simple
-
-This starter removes the blank-screen failure mode of the earlier prototype. Critical page content is present in static HTML, and ordinary links work even if JavaScript fails. Search/category filtering in `explore.html` is progressive enhancement. **This is not the entire SSOT v1 fixture**: only grounded examples from the original 2026-10-03 pilot are present; the final migration ZIP was not available in this chat.
+**Status:** UX / development baseline, not a live or complete service.
+**Source of truth:** Türkiye in Japan — SSOT v1.0.
+**Data:** Limited, source-grounded examples from the 2026-10-03 pilot; not the full SSOT v1 migrated fixture. Confirm current operating status on each provider's official page.
 
 ## Pages
+- `index.html` — home and discovery entry points
+- `explore.html` — find by activity, topic, and keyword
+- `dogal.html` — online store vs closed physical location
+- `tokyo-camii.html` — one facility with multiple offerings
+- `events.html` — upcoming events empty state
 
-- `/index.html` — HOME and entry links
-- `/explore.html` — discovery and optional client-side filters
-- `/dogal.html` — distinguish online shop from closed physical store
-- `/tokyo-camii.html` — one facility, multiple offerings
-- `/events.html` — honest empty state
+The essential content is directly in HTML. Links and copy remain usable without JavaScript. Filters are progressive enhancement.
 
-## Local development
+## Local verification
 
-No npm install or build is required.
-
-```bash
+```sh
 npm test
 python3 -m http.server 4173
 ```
 
-Open `http://localhost:4173/` in a browser. **Do not test from `file://` or a chat attachment preview**.
+Open http://localhost:4173/ in a browser — **not** a local file preview in ChatGPT.
 
-## GitHub / Netlify setup
+## GitHub Pages publication
 
-1. Create a new repository `turkiye-in-japan` on GitHub, preferably private while developing.
-2. Commit all files at the root, including `.github/workflows/check.yml`.
-3. In Netlify: Add new project → Import existing project → GitHub → select this repo.
-4. Publish directory: `.`; no build command. A root `netlify.toml` includes these settings.
-5. Enable Deploy Previews for pull requests; use preview URLs on the iPhone in Safari.
-6. Do **not** declare acceptance until HTTPS preview opens on iPhone and HOME → explore → Dogal works.
+The site needs no dependency installation or build tool. Host directly from GitHub Pages (no Netlify).
 
-`main` should represent the last human-accepted state. Implement new features via issue → branch → pull request → automated check → HTTPS Deploy Preview → iPhone check → merge.
+1. Set the repository `yusuftakuro/turkiye-in-japan` to **Public** on GitHub Settings > General > Danger Zone > Change visibility. All repository source, history, and issues become public.
+2. Open Settings > Pages > Build and deployment.
+3. Source: **Deploy from a branch**. Branch: **main**; folder: **/(root)**. Save.
+4. Wait for GitHub Pages to show a live HTTPS URL. Verify it opens on iPhone Safari.
 
-## Deployment gates
+The URL should normally take the form `https://yusuftakuro.github.io/turkiye-in-japan/`, but **do not treat it as live until its HTTP status and actual page contents have been verified**.
 
-- `npm test` passes
-- Static contents appear without JavaScript
-- Browser screenshot demonstrates viewport without overflow
-- Navigation and filter links work
-- No console errors
-- HTTPS deploy preview is live
-- User verified iPhone Safari
+Because the website is intentionally static, all navigation uses relative links and works under the `/turkiye-in-japan/` project path.
 
-## Data provenance
+## Required acceptance gates
 
-Examples (Dogal, Tokyo Camii, Çankaya, Kilim Tokyo, Turkey Culture Center) are from the 2026-10-03 pilot file. Exact runtime states should not be treated as refreshed to the current day. External links go to official sites observed in that pilot.
+- `npm test` / GitHub Actions pass.
+- HTML body displays without JavaScript.
+- HOME → Explore → Dogal (and Tokyo Camii, Events) works.
+- No broken CSS/JS requests or uncaught browser errors.
+- 320–430px viewport: no major overflow / missing content.
+- The live HTTPS URL is confirmed accessible.
+- The user checks the same URL in iPhone Safari and accepts it.
 
-## Technical growth rule
+A CI result or HTML file existing on GitHub is **not** evidence that the live site is working.
 
-Do not introduce TypeScript/Vite/backend/database until actual product functionality requires it. The static baseline is an explicit reliability checkpoint, not a final architectural decision. Any future migration must preserve no-JavaScript readable content or supply an equivalent server-rendered fallback.
+## Development policy
+
+- Chat: scope, decisions, specification.
+- GitHub Issues: testable work units.
+- Feature branch + PR: code changes and automated checks.
+- The published `main` branch is the last accepted state.
+- No claim of release success without a real URL and a user-visible validation.
+
+Do not import the malformed original pilot P013/P057 rows as canonical data. No guessed identities, addresses, availability, translated text, or event dates.
