@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "24 source-backed candidate IDs",
+    "source_url present for all candidates",
+    "no duplicate candidate IDs",
+    "status defaults unknown",
+    "canonical IDs not assigned",
+    "existing updates non-destructive"
+  ],
+  "all_passed": true,
+  "validated_date": "2026-10-17"
+}
