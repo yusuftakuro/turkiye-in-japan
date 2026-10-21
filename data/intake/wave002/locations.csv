@@ -1,0 +1,10 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: locations.csv>
+index,location_id,name,location_kind,operational_status,verification_status,verified_at,prefecture,city,address,nearest_station,public_access,visibility,opened_at,closed_at,note
+0,W002-L001,中近東文化センター附属博物館,cultural_facility,unknown,verified,2026-10-21,東京都,三鷹市,大沢3-10-31,,yes,public,,,Confirm published museum opening days before visiting; library same overall facility.
+1,W002-L002,らんぷ屋JIJI 小山店,store,unknown,verified,2026-10-21,栃木県,小山市,犬塚5-13-9,,yes,public,,,
+2,W002-L003,らんぷ屋JIJI 那須高原店,store,unknown,verified,2026-10-21,栃木県,那須町,大字高久乙23-150,,yes,public,,,那須高原店は公式サイトに冬季休業の記載。営業状況は要再確認。
+3,W002-L004,メイハーネ,restaurant,unknown,verified,2026-10-21,北海道,札幌市中央区,北1条西21丁目3-32,,yes,public,,,
+4,W002-L005,ナーディル・ギュル 松屋銀座店,store,unknown,verified,2026-10-21,東京都,中央区,銀座3-6-1（松屋銀座）,,yes,public,,,Store brand confirmed on its own site; base building address sourced from Matsuya corporate profile.
+5,W002-L006,仙台三越 定禅寺通り館1階イベントスペース,venue,unknown,verified,2026-10-21,宮城県,仙台市青葉区,,,yes,public,,,Location recorded as historical pop-up venue. No current tenant location.
+6,W002-L007,きゅりあん4階 調理講習室,venue,unknown,verified,2026-10-21,東京都,品川区,東大井5-18-1,,yes,public,,,Single-event venue; not a permanent location of トルコ文化センター.

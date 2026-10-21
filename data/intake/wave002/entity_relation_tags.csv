@@ -1,0 +1,15 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: entity_relation_tags.csv>
+index,entity_id,relation_tag,review_state
+0,W002-E001,turkey_japan_exchange,candidate
+1,W002-E002,turkish_culture,candidate
+2,W002-E003,turkish_culture,candidate
+3,W002-E004,turkish_language,candidate
+4,W002-E005,turkish_culture,candidate
+5,W002-E006,turkish_culture,candidate
+6,W002-E007,turkish_cuisine,candidate
+7,W002-E008,turkish_products,candidate
+8,W002-E009,turkish_cuisine,candidate
+9,W002-E010,turkish_culture,candidate
+10,W002-E011,turkish_public_institution,candidate
+11,W002-E012,turkish_products,candidate

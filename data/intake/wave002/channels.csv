@@ -1,0 +1,8 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: channels.csv>
+index,channel_id,entity_id,channel_type,availability_status,verification_status,verified_at,url,note
+0,W002-C001,W002-E007,online_booking,unknown,verified,2026-10-21,https://meyhane.jp/reservation,Official booking form; do not assert real-time table inventory.
+1,W002-C002,W002-E009,in_person,unknown,verified,2026-10-21,,松屋銀座の店頭購入、営業日確認は店舗へ。
+2,W002-C003,W002-E009,online_shop,unknown,verified,2026-10-21,https://www.nadirgulluonlinestore.jp/,Online shop displays product purchase control; stock availability unknown.
+3,W002-C004,W002-E008,online_shop,unknown,verified,2026-10-21,https://berfinkilim.com/,"Cart/product category present, products require recheck."
+4,W002-C005,W002-E010,online_shop,unknown,verified,2026-10-21,https://igneoya-rosette.ocnk.net/,Cart/product offers on official store.

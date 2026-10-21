@@ -1,0 +1,15 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: offerings.csv>
+index,offering_id,entity_id,offering_type,name,availability_status,verification_status,verified_at,note
+0,W002-O001,W002-E001,other,講演会・会員交流活動,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+1,W002-O002,W002-E002,museum_visit,附属博物館の見学,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+2,W002-O003,W002-E003,lecture,アナトリア学勉強会（過去開催の実績）,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+3,W002-O004,W002-E004,education,トルコ語の大学教育,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+4,W002-O005,W002-E005,class,モザイクランプ体験レッスン,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+5,W002-O006,W002-E006,class,モザイクランプ制作ワークショップ,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+6,W002-O007,W002-E007,food_service,トルコ料理の店内飲食,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+7,W002-O008,W002-E008,retail,キリム・トルコ雑貨通販,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+8,W002-O009,W002-E009,food_retail,バクラヴァ店頭販売,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+9,W002-O010,W002-E010,retail,イーネオヤ関連用品通販,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+10,W002-O011,W002-E011,information,トルコ観光・文化の日本向け情報提供,unknown,verified,2026-10-21,"Offering type observed, not live availability."
+11,W002-O012,W002-E012,retail,トルコ雑貨の催事販売（終了した催事）,ended,verified,2026-10-21,Historical evidence only; no current stock or event.
