@@ -1,0 +1,17 @@
+{
+  "baseline_fixture_entities": 41,
+  "baseline_fixture_state": "confirmed historically from SSOT but actual accepted full fixture not accessible",
+  "wave001_candidate_entities": 24,
+  "wave002_candidate_entities": 12,
+  "combined_unique_candidate_entities": 36,
+  "canonical_new_entities": 0,
+  "merge_state": "not_merged",
+  "combined_evidence_links": 36,
+  "validation": {
+    "unique_ids": true,
+    "unique_normalized_names": true,
+    "candidate_evidence_link_per_entity": true,
+    "no_canonical_id_invented": true
+  },
+  "date": "2026-10-21"
+}
