@@ -1,0 +1,5 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: existing_entity_updates.csv>
+index,legacy_pilot_id,entity_name,claim,source_url,checked_at,action
+0,P047,一般社団法人日本・トルコ協会,公式サイトが2026-08-24より事務局住所を東京都港区赤坂2丁目17-22に変更したと案内,https://www.tkjts.jp/,2026-10-17,propose_location_history_update
+1,P047,一般社団法人日本・トルコ協会,公式サイトに第105回秋期トルコ語講座（2026年10月〜2027年2月、オンライン）の案内あり,https://www.tkjts.jp/turkish_lecture/2026/08/14/7357/,2026-10-17,propose_offering_update

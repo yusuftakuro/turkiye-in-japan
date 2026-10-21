@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-17",
+  "state": "intake_staging_not_merged",
+  "proposed_entities": 24,
+  "proposed_locations": 11,
+  "proposed_channels": 16,
+  "proposed_offerings": 38,
+  "sources": 20,
+  "claims": 24,
+  "claim_sources": 24,
+  "entity_relations": 3,
+  "legacy_updates": 2,
+  "review_items": 22,
+  "by_prefecture": {
+    "大阪府": 8,
+    "京都府": 2,
+    "和歌山県": 7,
+    "愛知県": 5,
+    "福岡県": 1,
+    "全国/オンライン": 1
+  },
+  "by_kind": {
+    "cultural_institution": 5,
+    "nonprofit": 3,
+    "business": 11,
+    "public_body": 4,
+    "community": 1
+  },
+  "source_urls": 20
+}

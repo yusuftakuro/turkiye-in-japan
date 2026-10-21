@@ -1,0 +1,19 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: channels.csv>
+index,channel_id,entity_id,channel_type,availability_status,verified_at,url
+0,W001-C001-01,W001-E001,in_person,unknown,2026-10-17,
+1,W001-C005-01,W001-E005,in_person,unknown,2026-10-17,
+2,W001-C006-01,W001-E006,in_person,unknown,2026-10-17,
+3,W001-C007-01,W001-E007,in_person,unknown,2026-10-17,
+4,W001-C009-01,W001-E009,in_person,unknown,2026-10-17,
+5,W001-C010-01,W001-E010,in_person,unknown,2026-10-17,
+6,W001-C010-02,W001-E010,online_shop,unknown,2026-10-17,https://www.abraj.jp/
+7,W001-C011-01,W001-E011,in_person,unknown,2026-10-17,
+8,W001-C011-02,W001-E011,online_shop,unknown,2026-10-17,https://www.topkapi-kilim.jp/
+9,W001-C013-01,W001-E013,in_person,unknown,2026-10-17,
+10,W001-C013-02,W001-E013,online_shop,unknown,2026-10-17,https://www.torukoshop.com/
+11,W001-C014-01,W001-E014,in_person,unknown,2026-10-17,
+12,W001-C015-01,W001-E015,in_person,unknown,2026-10-17,
+13,W001-C021-01,W001-E021,in_person,unknown,2026-10-17,
+14,W001-C022-01,W001-E022,in_person,unknown,2026-10-17,
+15,W001-C022-02,W001-E022,online_shop,unknown,2026-10-17,https://www.kilimanatolia.com/
