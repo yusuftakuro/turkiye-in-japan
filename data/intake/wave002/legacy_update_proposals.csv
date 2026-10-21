@@ -1,5 +1,3 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: legacy_update_proposals.csv>
-index,legacy_id,change_type,claim,source_url,status
-0,P048,propose_new_offering_claim,日本・トルコ協会は第105回秋期トルコ語講座（2026年10月～2027年2月）をオンラインで開催と案内している。,https://www.tkjts.jp/turkish_lecture/2026/08/14/7357/,review_canonical_mapping
-1,P040,propose_new_event,トルコ文化センターが2026年10月26日の料理教室を公式サイトで案内している。,https://www.turkeycenter.co.jp/,review_canonical_mapping
+legacy_id,change_type,claim,source_url,status
+P048,propose_new_offering_claim,日本・トルコ協会は第105回秋期トルコ語講座（2026年10月～2027年2月）をオンラインで開催と案内している。,https://www.tkjts.jp/turkish_lecture/2026/08/14/7357/,review_canonical_mapping
+P040,propose_new_event,トルコ文化センターが2026年10月26日の料理教室を公式サイトで案内している。,https://www.turkeycenter.co.jp/,review_canonical_mapping

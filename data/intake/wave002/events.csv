@@ -1,5 +1,3 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: events.csv>
-index,event_id,name,event_type,status,starts_at,ends_at,time_precision,location_id,organizer_entity_id,candidate_participant_entity_id,organizer_legacy_pilot_id,verification_status,verified_at,note
-0,W002-EV001,ラビレント トルコ雑貨POP UP（仙台三越）,pop_up_retail,completed,2026-01-02,2026-03-30,date,W002-L006,,W002-E012,,verified,2026-10-21,"Historic popup, not proof of a current shop. Venue is not linked as permanent location of Rabirent."
-1,W002-EV002,トルコ文化センター 10月の料理教室（2026）,cooking_workshop,scheduled,2026-10-26T13:40,2026-10-26T16:30,minute,W002-L007,,,P040,verified,2026-10-21,Organizing canonical Entity P040 remains unresolved until accepted v1 fixture mapping is available; 30-day event TTL applies.
+event_id,name,event_type,status,starts_at,ends_at,time_precision,location_id,organizer_entity_id,candidate_participant_entity_id,organizer_legacy_pilot_id,verification_status,verified_at,note
+W002-EV001,ラビレント トルコ雑貨POP UP（仙台三越）,pop_up_retail,completed,2026-01-02,2026-03-30,date,W002-L006,,W002-E012,,verified,2026-10-21,"Historic popup, not proof of a current shop. Venue is not linked as permanent location of Rabirent."
+W002-EV002,トルコ文化センター 10月の料理教室（2026）,cooking_workshop,scheduled,2026-10-26T13:40,2026-10-26T16:30,minute,W002-L007,,,P040,verified,2026-10-21,Organizing canonical Entity P040 remains unresolved until accepted v1 fixture mapping is available; 30-day event TTL applies.

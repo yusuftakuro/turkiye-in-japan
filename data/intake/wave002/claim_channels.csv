@@ -1,5 +1,3 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: claim_channels.csv>
-index,claim_id,channel_id
-0,W002-CL029,W002-C001
-1,W002-CL031,W002-C003
+claim_id,channel_id
+W002-CL029,W002-C001
+W002-CL031,W002-C003

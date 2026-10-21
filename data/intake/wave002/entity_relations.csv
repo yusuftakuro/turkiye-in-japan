@@ -1,4 +1,2 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: entity_relations.csv>
-index,from_entity_id,to_entity_id,relation_type,evidence_source_id,review_status
-0,W002-E003,W002-E002,part_of,W002-S002,candidate_sourced
+from_entity_id,to_entity_id,relation_type,evidence_source_id,review_status
+W002-E003,W002-E002,part_of,W002-S002,candidate_sourced
