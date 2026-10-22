@@ -1,0 +1,40 @@
+{
+  "canonical_reference": "SSOT v1.0 accepted archive",
+  "canonical_entities": 41,
+  "canonical_locations": 33,
+  "canonical_channels": 36,
+  "canonical_offerings": 43,
+  "canonical_events": 3,
+  "canonical_sources": 57,
+  "canonical_claims": 180,
+  "canonical_pilot_mapping": 60,
+  "legacy_evidence_unique_ids": 222,
+  "canonical_original_acceptance_tests_pass": 46,
+  "research_candidates": 54,
+  "confirmed_exact_existing_entity": 0,
+  "staged_no_canonical_collision_detected": 26,
+  "staged_requires_identity_scope_grain_or_relationship_review": 28,
+  "classifications": {
+    "BRAND_IDENTITY_REVIEW": 1,
+    "CANONICAL_PARENT_RELATION_REVIEW": 1,
+    "DIPLOMATIC_OFFICE_REVIEW": 4,
+    "ENTITY_OR_OFFERING_REVIEW": 8,
+    "FOREIGN_LOCATION_SCOPE_REVIEW": 1,
+    "HISTORICAL_ONLY_IDENTITY_REVIEW": 1,
+    "INTRA_INTAKE_RELATION_REVIEW": 4,
+    "NAME_LOOKALIKE_DISTINCT_REVIEW": 6,
+    "NON_CANONICAL_PARENT_REVIEW": 1,
+    "NO_CANONICAL_COLLISION_DETECTED": 26,
+    "OPERATOR_RELATION_REVIEW": 1
+  },
+  "canonical_new_entities_merged": 0,
+  "distinct_candidate_official_domains_matching_canonical_official_domains": 0,
+  "unresolved_same_source_not_same_subject_pairs_in_staging": 6,
+  "methodology": "Exact normalized names and direct alias matches, official domain comparisons, editorial crosswalk, no automatic merge. Source page directory domain reuse is not entity proof.",
+  "limitations": [
+    "Cannot prove entity identity from absence of a fuzzy/name/domain collision",
+    "Some staged Entity objects likely better represented as Offering or parent-child departments",
+    "Parent association and consular offices must not be merged because of shared URLs",
+    "No live business-availability assertion from identity verification."
+  ]
+}
