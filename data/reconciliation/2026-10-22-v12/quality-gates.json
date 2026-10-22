@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-22",
+  "based_on": "v1.1 proposed full SSOT fixture, not publicly listed live site",
+  "baseline_entities": 67,
+  "new_provisional_entities": 25,
+  "proposed_entities_total": 92,
+  "original_41_preserved": true,
+  "old_26_preserved": true,
+  "reviewed_28": 28,
+  "new_reviewed_provisional": 25,
+  "still_held": 3,
+  "held_stage_ids": [
+    "W001-E023",
+    "W002-E004",
+    "W002-E012"
+  ],
+  "baseline_rows_prefix_unchanged": true,
+  "original_46_regression_pass": true,
+  "legacy_60_pilot_rows": 60,
+  "legacy_222_evidence_rows": 222,
+  "new_relation_rows": 5,
+  "tables": [
+    {
+      "table": "entities",
+      "before": 67,
+      "after": 92,
+      "added": 25,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "locations",
+      "before": 48,
+      "after": 52,
+      "added": 4,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "location_entities",
+      "before": 48,
+      "after": 52,
+      "added": 4,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "channels",
+      "before": 58,
+      "after": 64,
+      "added": 6,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "channel_locations",
+      "before": 35,
+      "after": 37,
+      "added": 2,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "channel_offerings",
+      "before": 66,
+      "after": 69,
+      "added": 3,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "offerings",
+      "before": 71,
+      "after": 115,
+      "added": 44,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "events",
+      "before": 3,
+      "after": 3,
+      "added": 0,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "sources",
+      "before": 87,
+      "after": 111,
+      "added": 24,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "claims",
+      "before": 271,
+      "after": 353,
+      "added": 82,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "claim_sources",
+      "before": 309,
+      "after": 392,
+      "added": 83,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "claim_entities",
+      "before": 91,
+      "after": 119,
+      "added": 28,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "claim_locations",
+      "before": 52,
+      "after": 56,
+      "added": 4,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "claim_channels",
+      "before": 46,
+      "after": 52,
+      "added": 6,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "claim_offerings",
+      "before": 80,
+      "after": 124,
+      "added": 44,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "claim_events",
+      "before": 6,
+      "after": 6,
+      "added": 0,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "entity_relations",
+      "before": 4,
+      "after": 9,
+      "added": 5,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "entity_relation_tags",
+      "before": 100,
+      "after": 134,
+      "added": 34,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "offering_topics",
+      "before": 107,
+      "after": 122,
+      "added": 15,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "entity_aliases",
+      "before": 2,
+      "after": 2,
+      "added": 0,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "pilot_record_mapping",
+      "before": 60,
+      "after": 60,
+      "added": 0,
+      "prefix_unchanged": true
+    },
+    {
+      "table": "legacy_evidence_to_v1_mapping",
+      "before": 232,
+      "after": 232,
+      "added": 0,
+      "prefix_unchanged": true
+    }
+  ],
+  "new_claims_source_subject_linked": 82,
+  "public_site_changed": false
+}
