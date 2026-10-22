@@ -1,0 +1,35 @@
+name: Validate Türkiye research intake
+on:
+  push:
+    paths:
+      - 'data/intake/**'
+      - 'scripts/check_intake.py'
+      - 'scripts/consolidate.py'
+      - '.github/workflows/data-intake-check.yml'
+  pull_request:
+    paths:
+      - 'data/intake/**'
+      - 'scripts/check_intake.py'
+      - 'scripts/consolidate.py'
+      - '.github/workflows/data-intake-check.yml'
+jobs:
+  validate-research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/check_intake.py
+      - run: python3 scripts/consolidate.py
+      - name: Assert 54 unique staged candidates and no accidental canonical merge
+        run: |
+          python3 - <<'PY'
+          import json
+          data=json.load(open('integrated/summary.json',encoding='utf-8'))
+          assert data['status']=='PASS' and data['staged_candidates']==54
+          assert data['exact_normalized_duplicates']==0
+          assert data['canonical_merged_count']==0
+          assert data['candidate_coverage_source_url']==54
+          print('PASS: 54 uniquely named candidate Entities, all with sources and no canonical merge')
+          PY

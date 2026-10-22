@@ -1,37 +1,55 @@
-intake_wave,candidate_id,name,kind,status,identity_review_status,region_hint,official_url,claim_id,evidence_url,canonical_id,merge_state
-001,W001-E001,大阪トルコ文化センター,cultural_institution,unknown,provisional,,https://turkeycenter.jp/,W001-CL001,https://turkeycenter.jp/,,NOT_MERGED
-001,W001-E002,特定非営利活動法人 日本多文化交流協会,nonprofit,unknown,provisional,,https://nihon-tabunka.org/,W001-CL002,https://www.interpeople.or.jp/cgi/web/index.cgi?c=info_dantai-3&pk=514,,NOT_MERGED
-001,W001-E003,日本トルコ文化協会（京都）,nonprofit,unknown,provisional,,,W001-CL003,https://dantai.hitomachi-kyoto.jp/detail/2161,,NOT_MERGED
-001,W001-E004,串本町トルコ文化協会,nonprofit,unknown,provisional,,https://1890kushimototurk.jimdofree.com/,W001-CL004,https://1890kushimototurk.jimdofree.com/,,NOT_MERGED
-001,W001-E005,串本町トルコ文化センター,cultural_institution,unknown,provisional,,https://1890kushimototurk.jimdofree.com/,W001-CL005,https://1890kushimototurk.jimdofree.com/,,NOT_MERGED
-001,W001-E006,トルコ記念館（串本町）,cultural_institution,unknown,provisional,,https://www.town.kushimoto.wakayama.jp/kanko/oshima/torukokinenkan.html,W001-CL006,https://www.town.kushimoto.wakayama.jp/kanko/oshima/torukokinenkan.html,,NOT_MERGED
-001,W001-E007,トルコ軍艦遭難慰霊碑（串本町）,cultural_institution,unknown,provisional,,https://www.town.kushimoto.lg.jp/kanko/oshima/torucogunkan.html,W001-CL007,https://www.town.kushimoto.lg.jp/kanko/oshima/torucogunkan.html,,NOT_MERGED
-001,W001-E008,KCR,business,unknown,provisional,,https://www.kcrjp.com/,W001-CL008,https://www.kcrjp.com/,,NOT_MERGED
-001,W001-E009,タイヨウのカフェ（串本町）,business,unknown,provisional,,https://www.kcrjp.com/,W001-CL009,https://www.kcrjp.com/,,NOT_MERGED
-001,W001-E010,abraj（アブラッシュ）,business,unknown,provisional,,https://www.abraj.jp/,W001-CL010,https://www.abraj.jp/page/3,,NOT_MERGED
-001,W001-E011,カランフィル（Karanfil）,business,unknown,provisional,,https://www.topkapi-kilim.jp/,W001-CL011,https://www.topkapi-kilim.jp/view/page/shop,,NOT_MERGED
-001,W001-E012,有限会社アラトゥルカ,business,unknown,provisional,,https://alaturka.shopinfo.jp/,W001-CL012,https://www.topkapi-kilim.jp/view/company,,NOT_MERGED
-001,W001-E013,Vitray トルコ雑貨,business,unknown,provisional,,https://www.torukoshop.com/,W001-CL013,https://www.torukoshop.com/about-2,,NOT_MERGED
-001,W001-E014,カラデニズ（移動販売）,business,unknown,provisional,,https://www.karadenizrestaurant.net/,W001-CL014,https://www.karadenizrestaurant.net/,,NOT_MERGED
-001,W001-E015,TAXiM（タクシム）,business,unknown,provisional,,https://www.taxim-cafe.jp/,W001-CL015,https://www.taxim-cafe.jp/,,NOT_MERGED
-001,W001-E016,在名古屋トルコ共和国総領事館,public_body,unknown,provisional,,https://nagoya-bk.mfa.gov.tr/,W001-CL016,https://nagoya-bk.mfa.gov.tr/Mission/ShowAnnouncement/383453,,NOT_MERGED
-001,W001-E017,在大阪トルコ共和国名誉総領事館,public_body,unknown,provisional,,,W001-CL017,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,,NOT_MERGED
-001,W001-E018,在和歌山トルコ共和国名誉総領事館,public_body,unknown,provisional,,,W001-CL018,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,,NOT_MERGED
-001,W001-E019,在福岡トルコ共和国名誉総領事館,public_body,unknown,provisional,,,W001-CL019,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,,NOT_MERGED
-001,W001-E020,大阪大学外国語学部 トルコ語専攻,cultural_institution,unknown,provisional,,https://www.sfs.osaka-u.ac.jp/major/turkish/,W001-CL020,https://www.sfs.osaka-u.ac.jp/major/turkish/,,NOT_MERGED
-001,W001-E021,hand craft shop kinari,business,unknown,provisional,,https://handcraft-nagoya.com/,W001-CL021,https://handcraft-nagoya.com/,,NOT_MERGED
-001,W001-E022,KILIM ANATOLIA KYOTO（キリムアナトリア）,business,unknown,provisional,,https://www.kilimanatolia.com/,W001-CL022,https://www.kilimanatolia.com/,,NOT_MERGED
-001,W001-E023,イスタンブール バザール（名古屋）,business,unknown,provisional,,https://www.site-builder.jp/1090/istanbul-bazaar/guide/,W001-CL023,https://www.site-builder.jp/1090/istanbul-bazaar/guide/,,NOT_MERGED
-001,W001-E024,オヤの会（Oya No Kai）,community,unknown,provisional,,https://www.oyalari.jp/,W001-CL024,https://www.oyalari.jp/,,NOT_MERGED
-002,W002-E001,九州・トルコ協会,nonprofit,unknown,provisional,熊本県,https://www.kyushu-turkiye.org/,W002-CL001,https://www.kyushu-turkiye.org/%E3%81%94%E6%A1%88%E5%86%85,,NOT_MERGED
-002,W002-E002,公益財団法人 中近東文化センター,nonprofit,unknown,provisional,東京都,https://www.meccj.or.jp/,W002-CL003,https://www.meccj.or.jp/about/,,NOT_MERGED
-002,W002-E003,アナトリア考古学研究所（JIAA）,cultural_institution,unknown,provisional,東京都,https://www.jiaa-kaman.com/,W002-CL005,https://www.jiaa-kaman.com/,,NOT_MERGED
-002,W002-E004,東京外国語大学,other,unknown,needs_review,東京都,https://www.tufs.ac.jp/education/lc/languages/,W002-CL007,https://www.tufs.ac.jp/education/lc/languages/,,NOT_MERGED
-002,W002-E005,日本トルコモザイクランプ協会,other,unknown,provisional,香川県,https://www.jtml-association.com/,W002-CL009,https://www.jtml-association.com/,,NOT_MERGED
-002,W002-E006,らんぷ屋JIJI,business,unknown,provisional,栃木県,https://www.lampya-jiji.com/,W002-CL011,https://www.lampya-jiji.com/,,NOT_MERGED
-002,W002-E007,トルコ料理専門店 メイハーネ,business,unknown,provisional,北海道,https://meyhane.jp/,W002-CL013,https://meyhane.jp/,,NOT_MERGED
-002,W002-E008,Berfin Kilim（ベルフィンキリム）,business,unknown,provisional,全国/オンライン,https://berfinkilim.com/,W002-CL015,https://berfinkilim.com/,,NOT_MERGED
-002,W002-E009,ナーディル・ギュル ジャパン,business,unknown,provisional,東京都,https://www.nadirgullu.jp/,W002-CL017,https://www.nadirgullu.jp/,,NOT_MERGED
-002,W002-E010,イーネオヤ ロゼット（iğne oya Rosette）,business,unknown,provisional,全国/オンライン,https://igneoya-rosette.ocnk.net/,W002-CL019,https://igneoya-rosette.ocnk.net/,,NOT_MERGED
-002,W002-E011,トルコ共和国大使館・文化広報参事官室,public_body,unknown,provisional,東京都,https://goturkiye.jp/ja/homepage,W002-CL021,https://tokyo-emb.mfa.gov.tr/Mission/Contact,,NOT_MERGED
-002,W002-E012,ラビレント（トルコ雑貨）,business,unknown,needs_review,宮城県,,W002-CL023,https://www.mitsukoshi.mistore.jp/sendai/shops/women_fashiongoods/accessories/shopnews_list/shopnews041111.html,,NOT_MERGED
+candidate_id,wave,name,kind,subtype,region,official_url,source_url,verification_status,identity_review_status,status,merge_state,canonical_id,source_count,review_note
+W001-E001,001,大阪トルコ文化センター,cultural_institution,,,https://turkeycenter.jp/,https://turkeycenter.jp/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E002,001,特定非営利活動法人 日本多文化交流協会,nonprofit,,,https://nihon-tabunka.org/,https://www.interpeople.or.jp/cgi/web/index.cgi?c=info_dantai-3&pk=514,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E003,001,日本トルコ文化協会（京都）,nonprofit,,,https://dantai.hitomachi-kyoto.jp/detail/2161,https://dantai.hitomachi-kyoto.jp/detail/2161,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E004,001,串本町トルコ文化協会,nonprofit,,,https://1890kushimototurk.jimdofree.com/,https://1890kushimototurk.jimdofree.com/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E005,001,串本町トルコ文化センター,cultural_institution,,,https://1890kushimototurk.jimdofree.com/,https://1890kushimototurk.jimdofree.com/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E006,001,トルコ記念館（串本町）,cultural_institution,,,https://www.town.kushimoto.wakayama.jp/kanko/oshima/torukokinenkan.html,https://www.town.kushimoto.wakayama.jp/kanko/oshima/torukokinenkan.html,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E007,001,トルコ軍艦遭難慰霊碑（串本町）,cultural_institution,,,https://www.town.kushimoto.lg.jp/kanko/oshima/torucogunkan.html,https://www.town.kushimoto.lg.jp/kanko/oshima/torucogunkan.html,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E008,001,KCR,business,,,https://www.kcrjp.com/,https://www.kcrjp.com/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E009,001,タイヨウのカフェ（串本町）,business,,,https://www.kcrjp.com/,https://www.kcrjp.com/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E010,001,abraj（アブラッシュ）,business,,,https://www.abraj.jp/,https://www.abraj.jp/page/3,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E011,001,カランフィル（Karanfil）,business,,,https://www.topkapi-kilim.jp/,https://www.topkapi-kilim.jp/view/page/shop,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E012,001,有限会社アラトゥルカ,business,,,https://alaturka.shopinfo.jp/,https://www.topkapi-kilim.jp/view/company,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E013,001,Vitray トルコ雑貨,business,,,https://www.torukoshop.com/,https://www.torukoshop.com/about-2,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E014,001,カラデニズ（移動販売）,business,,,https://www.karadenizrestaurant.net/,https://www.karadenizrestaurant.net/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E015,001,TAXiM（タクシム）,business,,,https://www.taxim-cafe.jp/,https://www.taxim-cafe.jp/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E016,001,在名古屋トルコ共和国総領事館,public_body,,,https://nagoya-bk.mfa.gov.tr/,https://nagoya-bk.mfa.gov.tr/Mission/ShowAnnouncement/383453,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E017,001,在大阪トルコ共和国名誉総領事館,public_body,,,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E018,001,在和歌山トルコ共和国名誉総領事館,public_body,,,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E019,001,在福岡トルコ共和国名誉総領事館,public_body,,,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,https://www.mofa.go.jp/about/emb_cons/protocol/q-z.html?height=90%25&iframe=true&width=90%25,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E020,001,大阪大学外国語学部 トルコ語専攻,cultural_institution,,,https://www.sfs.osaka-u.ac.jp/major/turkish/,https://www.sfs.osaka-u.ac.jp/major/turkish/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E021,001,hand craft shop kinari,business,,,https://handcraft-nagoya.com/,https://handcraft-nagoya.com/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E022,001,KILIM ANATOLIA KYOTO（キリムアナトリア）,business,,,https://www.kilimanatolia.com/,https://www.kilimanatolia.com/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E023,001,イスタンブール バザール（名古屋）,business,,,https://www.site-builder.jp/1090/istanbul-bazaar/guide/,https://www.site-builder.jp/1090/istanbul-bazaar/guide/,verified,provisional,unknown,NOT_MERGED,,1,
+W001-E024,001,オヤの会（Oya No Kai）,community,,,https://www.oyalari.jp/,https://www.oyalari.jp/,verified,provisional,unknown,NOT_MERGED,,1,
+W002-E001,002,九州・トルコ協会,nonprofit,association,熊本県,https://www.kyushu-turkiye.org/,https://www.kyushu-turkiye.org/%E3%81%94%E6%A1%88%E5%86%85,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E002,002,公益財団法人 中近東文化センター,nonprofit,foundation,東京都,https://www.meccj.or.jp/,https://www.meccj.or.jp/about/,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E003,002,アナトリア考古学研究所（JIAA）,cultural_institution,research_institute,東京都,https://www.jiaa-kaman.com/,https://www.jiaa-kaman.com/,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E004,002,東京外国語大学,other,university,東京都,https://www.tufs.ac.jp/education/lc/languages/,https://www.tufs.ac.jp/education/lc/languages/,verified,needs_review,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E005,002,日本トルコモザイクランプ協会,other,craft_education_network,香川県,https://www.jtml-association.com/,https://www.jtml-association.com/,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E006,002,らんぷ屋JIJI,business,craft_shop,栃木県,https://www.lampya-jiji.com/,https://www.lampya-jiji.com/,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E007,002,トルコ料理専門店 メイハーネ,business,restaurant,北海道,https://meyhane.jp/,https://meyhane.jp/,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E008,002,Berfin Kilim（ベルフィンキリム）,business,online_retailer,全国/オンライン,https://berfinkilim.com/,https://berfinkilim.com/,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E009,002,ナーディル・ギュル ジャパン,business,retail_brand,東京都,https://www.nadirgullu.jp/,https://www.nadirgullu.jp/,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E010,002,イーネオヤ ロゼット（iğne oya Rosette）,business,online_retailer,全国/オンライン,https://igneoya-rosette.ocnk.net/,https://igneoya-rosette.ocnk.net/,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E011,002,トルコ共和国大使館・文化広報参事官室,public_body,diplomatic_office,東京都,https://goturkiye.jp/ja/homepage,https://tokyo-emb.mfa.gov.tr/Mission/Contact,verified,provisional,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W002-E012,002,ラビレント（トルコ雑貨）,business,retail_brand,宮城県,https://www.mitsukoshi.mistore.jp/sendai/shops/women_fashiongoods/accessories/shopnews_list/shopnews041111.html,https://www.mitsukoshi.mistore.jp/sendai/shops/women_fashiongoods/accessories/shopnews_list/shopnews041111.html,verified,needs_review,unknown,NOT_MERGED,,1,Identity/relationship sourced; activity and real-time availability not asserted.
+W003-E001,003,慶應外語（慶應義塾大学外国語教育研究センター）,cultural_institution,education_program,東京都,https://www.fls.keio.ac.jp/levelall-10aki/levelall-trk.html,https://www.fls.keio.ac.jp/levelall-10aki/levelall-trk.html,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E002,003,慶應義塾大学言語文化研究所,cultural_institution,research_and_education,東京都,https://www.icl.keio.ac.jp/tokushukouza.html,https://www.icl.keio.ac.jp/tokushukouza.html,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E003,003,朝日カルチャーセンター横浜教室,business,learning_center,神奈川県,https://www.asahiculture.com/,https://www.asahiculture.com/asahiculture/asp-webapp/web/WKozaKensaku.do?kensakuKubun=0&kyoshitsuId=&shishaId=9100&wbKozaKensakuJoken.chikuId=0&wbKozaKensakuJoken.chujanruId=8607&wbKozaKensakuJoken.daijanruId=09&wbKozaKensakuJoken.keyWord=&wbKozaKensakuJoken.shobunruiId=1291,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E004,003,NHK文化センター梅田教室,business,learning_center,大阪府,https://www.nhk-cul.co.jp/,https://www.nhk-cul.co.jp/programs/program_1108931.html,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E005,003,ヨークカルチャーセンター大船,business,learning_center,神奈川県,https://www.culture.gr.jp/detail/oofuna/1953602,https://www.culture.gr.jp/detail/oofuna/1953602,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E006,003,自由が丘産経学園,business,learning_center,東京都,https://www.culture.gr.jp/detail/sk.jiyugaoka/4559366,https://www.culture.gr.jp/detail/sk.jiyugaoka/4559366,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E007,003,WASABI-Elisi（ワサビ・エリシ）,business,craft_workshop,地域要確認,https://wasabielisi.com/,https://wasabielisi.com/?cbid=2172835&csid=16&mode=cate,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E008,003,ROGOBA（ロゴバ）,business,kilim_brand,東京都／大阪府,https://rogobakilim.com/,https://rogobakilim.com/shop/,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E009,003,ANATOLIAN RUGS,business,kilim_retailer,地域要確認,https://anatolianrugs.net/,https://anatolianrugs.net/,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E010,003,ARTLINE（アートライン）,business,kilim_retailer,静岡県,https://www.artlinekilim.com/,https://www.artlinekilim.com/,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E011,003,ZAKUROらんぷ家,business,lamp_workshop,東京都,https://zakuro-lampya.com/,https://zakuro-lampya.com/,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E012,003,クリムゾン・ジャパン,business,translation_service,東京都,https://www.crimsonjapan.co.jp/,https://www.crimsonjapan.co.jp/translation/lang/turkish.html,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E013,003,トルコ雑貨＆カフェ ぎゃるぎゃる,business,turkish_goods_and_cafe,岡山県,https://www.gelgel.jp/,https://www.gelgel.jp/,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E014,003,ESMA（トルコ雑貨）,business,online_retailer,所在地要確認,https://esma1210.thebase.in/,https://esma1210.thebase.in/about,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E015,003,NOVAROMA,business,online_retailer,所在地要確認,https://www.novaromashop.com/,https://www.novaromashop.com/,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E016,003,ブルーコテージ（ぬくもりの森）,business,turkish_goods_store,静岡県,https://toruko.crayonsite.com/,https://toruko.crayonsite.com/,verified,provisional,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E017,003,ミフリ＆アクチェ,business,cross_border_retailer,トルコ／対日通販要確認,https://mihri.ocnk.net/,https://mihri.ocnk.net/,verified,needs_review,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.
+W003-E018,003,C-BOW（トルコのオヤ雑貨）,business,cross_border_retailer,発送元要確認,https://c-bow.ocnk.net/,https://c-bow.ocnk.net/info,verified,needs_review,unknown,NOT_MERGED,,1,Source supports identity/activity but not legal identity or current opening status.

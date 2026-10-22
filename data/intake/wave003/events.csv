@@ -1,0 +1,5 @@
+event_id,name,event_type,status,starts_at,ends_at,time_precision,location_id,organizer_entity_id,parent_event_id,verification_status,verified_at,note
+W003-EV001,トルコの伝統手芸・オヤ 新刊作品展＆ワークショップ,exhibition_and_workshop,scheduled,2026-10-24,2026-11-06,date,W003-L007,,,verified,2026-10-22,Exact times/dates as displayed; confirm cancellations and remaining capacity at official source.
+W003-EV002,WASABI-Elisi イーネオヤ教室（2026年10月25日）,handicraft_workshop,scheduled,2026-10-25T11:00,2026-10-25T13:00,minute,,W003-E007,,verified,2026-10-22,Exact times/dates as displayed; confirm cancellations and remaining capacity at official source.
+W003-EV003,WASABI-Elisi イーネオヤ教室（2026年11月22日）,handicraft_workshop,scheduled,2026-11-22T11:00,2026-11-22T13:00,minute,,W003-E007,,verified,2026-10-22,Exact times/dates as displayed; confirm cancellations and remaining capacity at official source.
+W003-EV004,トルコの伝統手芸・オヤ 作品展（2026年9月）,exhibition,completed,2026-09-03,2026-09-12,date,W003-L008,,,verified,2026-10-22,Exact times/dates as displayed; confirm cancellations and remaining capacity at official source.

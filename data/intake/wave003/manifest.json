@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-22",
+  "state": "staging_candidate_not_canonical",
+  "counts": {
+    "entities": 18,
+    "locations": 8,
+    "location_entities": 6,
+    "channels": 7,
+    "channel_offerings": 7,
+    "channel_locations": 0,
+    "offerings": 25,
+    "events": 4,
+    "sources": 21,
+    "claims": 62,
+    "claim_sources": 62,
+    "claim_entities": 18,
+    "claim_locations": 6,
+    "claim_channels": 7,
+    "claim_offerings": 26,
+    "claim_events": 5,
+    "entity_relation_tags": 18,
+    "review_queue": 2,
+    "existing_update_proposals": 5
+  },
+  "existing_updates": 5,
+  "baseline": {
+    "canonical_v1_entity_count_reported": 41,
+    "canonical_v1_fixture_available": false,
+    "pilot_records": 60,
+    "prior_staged_candidate_entities": 36
+  },
+  "notes": [
+    "SSOT v1.0 unchanged",
+    "Events classified on 2026-10-22",
+    "All availability statuses unknown except dated events",
+    "Historical events preserved",
+    "Proposed updates not duplicated as new Entities"
+  ]
+}
