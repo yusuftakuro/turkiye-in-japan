@@ -17,6 +17,6 @@ const dogal=read('dogal.html');
 if(!dogal.includes('2025年3月23日')||!dogal.includes('オンライン'))failures.push('Dogal status split missing');
 const home=read('index.html');
 for(const s of ['食べる','買う','学ぶ','体験する'])if(!home.includes(s))failures.push(`missing primary action ${s}`);
-for(const f of ['assets/site.css','assets/site.js','netlify.toml'])if(!existsSync(new URL(f,base)))failures.push(`missing asset ${f}`);
+for(const f of ['assets/site.css','assets/site.js','.nojekyll'])if(!existsSync(new URL(f,base)))failures.push(`missing asset ${f}`);
 if(failures.length){console.error(`FAILED ${failures.length} checks:\n${failures.join('\n')}`);process.exit(1)}
 console.log(`PASS: ${pages.length} HTML pages, non-empty server-delivered main content, internal hrefs, CSS/JS assets, Dogal status, action entry points`);

@@ -1,0 +1,12 @@
+location_id,name,location_kind,operational_status,prefecture,city,address,public_access,visibility,verified_at
+W001-L001,大阪トルコ文化センター,cultural_facility,unknown,大阪府,大阪市西区,南堀江1-1-16 OTK四ツ橋ビル3F,yes,public,2026-10-17
+W001-L005,串本町トルコ文化センター,cultural_facility,unknown,和歌山県,東牟婁郡串本町,樫野1027,yes,public,2026-10-17
+W001-L006,トルコ記念館（串本町）,cultural_facility,unknown,和歌山県,東牟婁郡串本町,樫野1025-26,yes,public,2026-10-17
+W001-L007,トルコ軍艦遭難慰霊碑（串本町）,cultural_facility,unknown,和歌山県,東牟婁郡串本町,樫野,yes,public,2026-10-17
+W001-L010,abraj（アブラッシュ）,store,unknown,大阪府,大阪市西区,南堀江2-9-24 1F,yes,public,2026-10-17
+W001-L011,カランフィル（Karanfil）,store,unknown,大阪府,大阪市中央区,天満橋京町1-1 京阪シティモール4F,yes,public,2026-10-17
+W001-L013,Vitray トルコ雑貨,store,unknown,大阪府,大阪市都島区,東野田町2-1-38 京阪モール2F,yes,public,2026-10-17
+W001-L015,TAXiM（タクシム）,store,unknown,愛知県,名古屋市東区,東桜2-15-39 グランドール東桜1F,yes,public,2026-10-17
+W001-L016,在名古屋トルコ共和国総領事館,office,unknown,愛知県,名古屋市中区,栄3-21-23 KSイセヤビル4階,unknown,internal_only,2026-10-17
+W001-L021,hand craft shop kinari,store,unknown,愛知県,名古屋市中区,栄3-31-13 加地ビル2F,yes,public,2026-10-17
+W001-L022,KILIM ANATOLIA KYOTO（キリムアナトリア）,store,unknown,京都府,京都市下京区,東洞院通四条下ル元悪王子町39-1,yes,public,2026-10-17

@@ -1,0 +1,6 @@
+existing_ref,object_type,proposal,evidence_url,action,checked_at,merge_status
+P048,offering,日本・トルコ協会 第105回秋期オンライン講座（2026年10月〜2027年2月）,https://www.tkjts.jp/turkish_lecture/2026/08/14/7357/,"Existing P047 organization; update Offering P048 and dated term information, not new Entity",2026-10-22,NOT_MERGED
+P025/P026,channel,セヴィンチエイト イクスピアリ/アトレ竹芝 2026-27年の出店案内,https://sevinc8.com/,Existing branded business; events/pop-ups need venue and timing reconciliation,2026-10-22,NOT_MERGED
+P040/P042,event,トルコ文化センター 2026年10月26日料理教室,https://www.turkeycenter.co.jp/cooking/,"Wave002 EV002 already exists: update its citations, do not duplicate Event",2026-10-22,NOT_MERGED
+W001-E023,identity,犬山市トルコ芸術専門店イスタンブールバザール,https://istanbulbazar.ocnk.net/,Possible relation to Wave001 Nagoya Istanbul Bazaar; verify same brand before Entity creation,2026-10-22,NOT_MERGED
+W001-E021,offering,hand craft shop kinari 名古屋 トルコランプ制作メニュー,https://handcraft-nagoya.com/menu,"Add activity/Offering to existing wave001 candidate, no new Entity",2026-10-22,NOT_MERGED

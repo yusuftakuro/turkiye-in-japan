@@ -1,0 +1,23 @@
+id,issue,severity
+W001-C001-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C005-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C006-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C007-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C009-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C010-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C010-02,ChannelOffering relation requires object-specific confirmation,medium
+W001-C011-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C011-02,ChannelOffering relation requires object-specific confirmation,medium
+W001-C013-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C013-02,ChannelOffering relation requires object-specific confirmation,medium
+W001-C014-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C015-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-E016,Honorary consulate: public counter service/access not established,high
+W001-E017,Honorary consulate: public counter service/access not established,high
+W001-E018,Honorary consulate: public counter service/access not established,high
+W001-E019,Honorary consulate: public counter service/access not established,high
+W001-C021-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C022-01,ChannelOffering relation requires object-specific confirmation,medium
+W001-C022-02,ChannelOffering relation requires object-specific confirmation,medium
+W001-E023,Current activity requires recent direct official confirmation,high
+W001-E024,Current activity requires recent direct official confirmation,high

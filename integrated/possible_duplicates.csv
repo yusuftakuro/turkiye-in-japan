@@ -1,0 +1,7 @@
+id_a,id_b,reason,score,resolution
+W001-E005,W001-E004,same_official_url,1.00,needs_review
+W001-E009,W001-E008,same_official_url,1.00,needs_review
+W001-E018,W001-E017,same_official_url,1.00,needs_review
+W001-E019,W001-E017,same_official_url,1.00,needs_review
+W001-E019,W001-E018,same_official_url,1.00,needs_review
+W003-E006,W003-E005,shared_domain,,needs_review

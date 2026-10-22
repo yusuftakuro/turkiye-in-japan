@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "canonical_entity_fixture_loaded": false,
+  "reported_existing_canonical_entities": 41,
+  "pilot_raw_rows": 60,
+  "staged_candidates": 54,
+  "wave_counts": {
+    "wave001": {
+      "entities": 24,
+      "sources": 20,
+      "claims": 24
+    },
+    "wave002": {
+      "entities": 12,
+      "sources": 18,
+      "claims": 34
+    },
+    "wave003": {
+      "entities": 18,
+      "sources": 21,
+      "claims": 62
+    }
+  },
+  "total_staging_sources": 59,
+  "total_staging_claims": 120,
+  "candidate_coverage_source_url": 54,
+  "exact_normalized_duplicates": 0,
+  "potential_identity_matches": 6,
+  "sqlite_fts5": true,
+  "canonical_merged_count": 0,
+  "scope_notes": [
+    "Names, entities and locations do not share a one-row = one-business assumption.",
+    "Prior 60 pilot records are separate from 41 canonical Entities.",
+    "P013 and P057 original pilot rows are not authoritative.",
+    "Source URL on a page does not confirm real-time operation or shop availability."
+  ]
+}

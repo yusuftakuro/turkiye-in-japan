@@ -1,0 +1,9 @@
+location_id,name,location_kind,operational_status,verification_status,verified_at,prefecture,city,address,nearest_station,public_access,visibility,opened_at,closed_at,note
+W003-L001,ROGOBA東京店,store,unknown,verified,2026-10-22,東京都,千代田区,東京都千代田区神田美土代町1 WORK VILLA MITOSHIRO 1階,,unknown,public,,,Do not equate published location with confirmed open-now availability; some locations have incomplete address.
+W003-L002,ROGOBA大阪店,store,unknown,verified,2026-10-22,大阪府,大阪市中央区,大阪府大阪市中央区谷町3-1-24 エルデ大手前1F,,unknown,public,,,Do not equate published location with confirmed open-now availability; some locations have incomplete address.
+W003-L003,ARTLINE事業所在地,office,unknown,verified,2026-10-22,静岡県,静岡市駿河区,静岡県静岡市駿河区東新田2丁目16-25,,unknown,internal_only,,,Do not equate published location with confirmed open-now availability; some locations have incomplete address.
+W003-L004,ZAKUROらんぷ家,store,unknown,verified,2026-10-22,東京都,荒川区,東京都荒川区西日暮里3-15-5,,yes,public,,,Do not equate published location with confirmed open-now availability; some locations have incomplete address.
+W003-L005,ぎゃるぎゃる実店舗,store,unknown,verified,2026-10-22,岡山県,倉敷市,岡山県倉敷市本町,,yes,public,,,Do not equate published location with confirmed open-now availability; some locations have incomplete address.
+W003-L006,ブルーコテージ,store,unknown,verified,2026-10-22,静岡県,浜松市,静岡県浜松市,,unknown,public,,,Do not equate published location with confirmed open-now availability; some locations have incomplete address.
+W003-L007,TOHO BEADS STYLE Tokyo Gallery t,venue,unknown,verified,2026-10-22,東京都,台東区,東京都台東区柳橋1-9-11,,unknown,public,,,Third-party event venue; not owned by organizer.
+W003-L008,ユヌス・エムレ（トルコ文化センター）,venue,unknown,verified,2026-10-22,東京都,渋谷区,東京都渋谷区大山町1-19,,unknown,public,,,Third-party event venue; not owned by organizer.

@@ -1,0 +1,3 @@
+object_id,severity,issue
+W002-E004,medium,Generic university Entity includes many unrelated offerings; canonical mapping should decide whether a separate Turkish programme Entity is warranted.
+W002-E012,high,"Historic pop-up confirms brand name but ongoing identity, owner and current sales channel are unknown. No active status."

@@ -1,0 +1,7 @@
+location_id,entity_id,relation_type,valid_from,valid_to
+W003-L001,W003-E008,operates_at,,
+W003-L002,W003-E008,operates_at,,
+W003-L003,W003-E010,based_at,,
+W003-L004,W003-E011,operates_at,,
+W003-L005,W003-E013,operates_at,,
+W003-L006,W003-E016,operates_at,,
