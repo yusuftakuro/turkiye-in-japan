@@ -1,0 +1,12 @@
+location_id,entity_id,relation_type
+W001-L001,W001-E001,operates_at
+W001-L005,W001-E005,operates_at
+W001-L006,W001-E006,operates_at
+W001-L007,W001-E007,operates_at
+W001-L010,W001-E010,operates_at
+W001-L011,W001-E011,operates_at
+W001-L013,W001-E013,operates_at
+W001-L015,W001-E015,operates_at
+W001-L016,W001-E016,based_at
+W001-L021,W001-E021,operates_at
+W001-L022,W001-E022,operates_at

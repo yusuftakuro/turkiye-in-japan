@@ -1,0 +1,25 @@
+claim_id,subject_type,subject_id,claim_type,claim_value,checked_at,verification_status,review_status
+W001-CL001,Entity,W001-E001,turkey_relation_or_offering_evidence,公式サイトが日本とトルコの文化交流、各種講座と翻訳・通訳サービスを案内する。,2026-10-17,verified,unmerged
+W001-CL002,Entity,W001-E002,turkey_relation_or_offering_evidence,関西国際交流団体協議会の登録情報が、トルコと日本の交流事業・生活支援・通訳翻訳を明記する。,2026-10-17,verified,unmerged
+W001-CL003,Entity,W001-E003,turkey_relation_or_offering_evidence,京都市市民活動団体データベースがトルコ語講座・交流活動・料理教室を登録している（登録更新2024年）。,2026-10-17,verified,unmerged
+W001-CL004,Entity,W001-E004,turkey_relation_or_offering_evidence,団体公式サイトが2001年設立、トルコ文化の紹介と舞踊・語学・オヤ活動を明記する。,2026-10-17,verified,unmerged
+W001-CL005,Entity,W001-E005,turkey_relation_or_offering_evidence,串本町トルコ文化協会が2018年に文化センター開設、土日祝不定期開館・工芸品展示を案内する。,2026-10-17,verified,unmerged
+W001-CL006,Entity,W001-E006,turkey_relation_or_offering_evidence,串本町の公式観光案内が記念館の住所、展示内容、一般入館情報を掲載する。,2026-10-17,verified,unmerged
+W001-CL007,Entity,W001-E007,turkey_relation_or_offering_evidence,串本町がエルトゥールル号の慰霊碑、所在地と見学情報を公開する。,2026-10-17,verified,unmerged
+W001-CL008,Entity,W001-E008,turkey_relation_or_offering_evidence,公式サイトが串本でのトルコ文化体験とトルコ由来の商品販売事業を掲載する。,2026-10-17,verified,unmerged
+W001-CL009,Entity,W001-E009,turkey_relation_or_offering_evidence,KCR公式サイトが「Book & Turkish Bazaar タイヨウのカフェ」とアクセサリー作り体験を紹介する。,2026-10-17,verified,unmerged
+W001-CL010,Entity,W001-E010,turkey_relation_or_offering_evidence,店舗公式が大阪の実店舗とオンライン販売、トルコキリムの取扱いを確認できる。,2026-10-17,verified,unmerged
+W001-CL011,Entity,W001-E011,turkey_relation_or_offering_evidence,公式店舗情報が京阪シティモールでの店舗営業とトルコ雑貨の取扱いを明示する。,2026-10-17,verified,unmerged
+W001-CL012,Entity,W001-E012,turkey_relation_or_offering_evidence,企業情報が法人名とカランフィルの運営、輸入・インターネット販売事業を明示する。,2026-10-17,verified,unmerged
+W001-CL013,Entity,W001-E013,turkey_relation_or_offering_evidence,店舗公式が京橋京阪モール2階の実店舗と商品販売再開を掲載する。,2026-10-17,verified,unmerged
+W001-CL014,Entity,W001-E014,turkey_relation_or_offering_evidence,公式サイトが名古屋を拠点にケバブ・トルコアイス等の移動販売を行う旨を掲載する。固定店舗所在地は登録しない。,2026-10-17,verified,unmerged
+W001-CL015,Entity,W001-E015,turkey_relation_or_offering_evidence,公式サイトが名古屋・新栄のトルコ料理店である旨を記載する。,2026-10-17,verified,unmerged
+W001-CL016,Entity,W001-E016,turkey_relation_or_offering_evidence,トルコ外務省サイトが所在地と管轄区域を掲載している。来訪受付の可否は個別確認が必要。,2026-10-17,verified,unmerged
+W001-CL017,Entity,W001-E017,turkey_relation_or_offering_evidence,日本国外務省の在日公館一覧に大阪名誉総領事館が掲載される。一般向け窓口業務・来訪可否は未確認。,2026-10-17,verified,unmerged
+W001-CL018,Entity,W001-E018,turkey_relation_or_offering_evidence,日本国外務省の在日公館一覧に和歌山名誉総領事館が掲載される。一般向け窓口業務・来訪可否は未確認。,2026-10-17,verified,unmerged
+W001-CL019,Entity,W001-E019,turkey_relation_or_offering_evidence,日本国外務省の在日公館一覧に福岡名誉総領事館が掲載される。一般向け窓口業務・来訪可否は未確認。,2026-10-17,verified,unmerged
+W001-CL020,Entity,W001-E020,turkey_relation_or_offering_evidence,大阪大学公式学部ページがトルコ語専攻の継続教育内容を記載する。一般向け自由参加講座とは扱わない。,2026-10-17,verified,unmerged
+W001-CL021,Entity,W001-E021,turkey_relation_or_offering_evidence,工房公式サイトが2026年のトルコランプ作品・体験と名古屋店舗所在地を案内する。,2026-10-17,verified,unmerged
+W001-CL022,Entity,W001-E022,turkey_relation_or_offering_evidence,公式サイトが京都の店舗、現地買い付けのキリム・雑貨の販売とランプ制作案内を掲載する。,2026-10-17,verified,unmerged
+W001-CL023,Entity,W001-E023,turkey_relation_or_offering_evidence,店舗案内ページにトルコ雑貨を扱う名古屋の店舗情報が掲載されるが、更新日・現時点の実店舗営業は未確認。,2026-10-17,verified,unmerged
+W001-CL024,Entity,W001-E024,turkey_relation_or_offering_evidence,オヤの会サイトが日本各地でのトルコ伝統手芸の講座を掲載するが、掲載講座の現在の開催状況は未確認。,2026-10-17,verified,unmerged

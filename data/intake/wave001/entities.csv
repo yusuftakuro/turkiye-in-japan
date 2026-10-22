@@ -1,0 +1,25 @@
+staged_entity_id,public_name,entity_kind,status,identity_review_status,verification_status,verified_at,official_url,intake_state,canonical_entity_id,legacy_duplicate_review
+W001-E001,大阪トルコ文化センター,cultural_institution,unknown,provisional,verified,2026-10-17,https://turkeycenter.jp/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E002,特定非営利活動法人 日本多文化交流協会,nonprofit,unknown,provisional,verified,2026-10-17,https://nihon-tabunka.org/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E003,日本トルコ文化協会（京都）,nonprofit,unknown,provisional,verified,2026-10-17,,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E004,串本町トルコ文化協会,nonprofit,unknown,provisional,verified,2026-10-17,https://1890kushimototurk.jimdofree.com/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E005,串本町トルコ文化センター,cultural_institution,unknown,provisional,verified,2026-10-17,https://1890kushimototurk.jimdofree.com/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E006,トルコ記念館（串本町）,cultural_institution,unknown,provisional,verified,2026-10-17,https://www.town.kushimoto.wakayama.jp/kanko/oshima/torukokinenkan.html,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E007,トルコ軍艦遭難慰霊碑（串本町）,cultural_institution,unknown,provisional,verified,2026-10-17,https://www.town.kushimoto.lg.jp/kanko/oshima/torucogunkan.html,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E008,KCR,business,unknown,provisional,verified,2026-10-17,https://www.kcrjp.com/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E009,タイヨウのカフェ（串本町）,business,unknown,provisional,verified,2026-10-17,https://www.kcrjp.com/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E010,abraj（アブラッシュ）,business,unknown,provisional,verified,2026-10-17,https://www.abraj.jp/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E011,カランフィル（Karanfil）,business,unknown,provisional,verified,2026-10-17,https://www.topkapi-kilim.jp/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E012,有限会社アラトゥルカ,business,unknown,provisional,verified,2026-10-17,https://alaturka.shopinfo.jp/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E013,Vitray トルコ雑貨,business,unknown,provisional,verified,2026-10-17,https://www.torukoshop.com/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E014,カラデニズ（移動販売）,business,unknown,provisional,verified,2026-10-17,https://www.karadenizrestaurant.net/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E015,TAXiM（タクシム）,business,unknown,provisional,verified,2026-10-17,https://www.taxim-cafe.jp/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E016,在名古屋トルコ共和国総領事館,public_body,unknown,provisional,verified,2026-10-17,https://nagoya-bk.mfa.gov.tr/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E017,在大阪トルコ共和国名誉総領事館,public_body,unknown,provisional,verified,2026-10-17,,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E018,在和歌山トルコ共和国名誉総領事館,public_body,unknown,provisional,verified,2026-10-17,,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E019,在福岡トルコ共和国名誉総領事館,public_body,unknown,provisional,verified,2026-10-17,,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E020,大阪大学外国語学部 トルコ語専攻,cultural_institution,unknown,provisional,verified,2026-10-17,https://www.sfs.osaka-u.ac.jp/major/turkish/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E021,hand craft shop kinari,business,unknown,provisional,verified,2026-10-17,https://handcraft-nagoya.com/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E022,KILIM ANATOLIA KYOTO（キリムアナトリア）,business,unknown,provisional,verified,2026-10-17,https://www.kilimanatolia.com/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E023,イスタンブール バザール（名古屋）,business,unknown,provisional,verified,2026-10-17,https://www.site-builder.jp/1090/istanbul-bazaar/guide/,candidate_verified_relation,,pending_canonical_fixture_comparison
+W001-E024,オヤの会（Oya No Kai）,community,unknown,provisional,verified,2026-10-17,https://www.oyalari.jp/,candidate_verified_relation,,pending_canonical_fixture_comparison
