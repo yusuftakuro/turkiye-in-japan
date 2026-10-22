@@ -1,0 +1,36 @@
+location_id,name,location_kind,operational_status,verification_status,prefecture,city,address,public_access,verified_at
+LOC001,イスタンブール 銀座店,restaurant,open,verified,東京都,中央区,銀座7丁目2番先 銀座コリドー街1F,yes,2026-10-03
+LOC002,イスタンブール 東京大学ネオポンテ店,restaurant,open,verified,東京都,文京区,本郷7丁目3-1 東京大学理学部1号館西棟1階,yes,2026-10-03
+LOC003,トルコ料理トプカプ 銀座ベルビア館店,restaurant,open,verified,東京都,中央区,銀座2丁目4-6 銀座ベルビア館8F,yes,2026-10-03
+LOC004,チャンカヤ,restaurant,open,verified,東京都,新宿区,西新宿1丁目15-7,yes,2026-10-03
+LOC005,トルコ料理アセナ 浦和店,restaurant,open,verified,埼玉県,さいたま市浦和区,,yes,2026-10-03
+LOC006,ボスボラスハサン 市ヶ谷店,restaurant,open,verified,東京都,千代田区,九段南4-4-5 榊原ビル1F,yes,2026-10-03
+LOC007,ANATOLIA 上野店,restaurant,open,verified,東京都,台東区,上野6-3-10 尾中ビル1F,yes,2026-10-03
+LOC008,ニューアリババ,restaurant,open,verified,神奈川県,横浜市中区,相生町1丁目2-1 パレ関内1F,yes,2026-10-03
+LOC009,ANATOLIA 鎌倉店,restaurant,open,verified,神奈川県,鎌倉市,雪ノ下1-9-27,yes,2026-10-03
+LOC010,ケバブハウス YASHAR 東習志野店,restaurant,unknown,unverified,千葉県,船橋市,習志野5丁目1-11,yes,2026-10-03
+LOC013,株式会社アララット・インターナショナル／Kilim Tokyo・Kilim House 渋谷店,store,open,unverified,東京都,渋谷区,渋谷2-8-3-1F,yes,2026-10-03
+LOC014,ガラタバザール ショールーム,store,open,verified,東京都,中野区,中央3-32-1,yes,2026-10-03
+LOC017,LORD HANDMADE GALLERY 横浜ランドマークプラザ店,store,open,verified,神奈川県,横浜市西区,横浜ランドマークプラザ4F,yes,2026-10-03
+LOC018,ミチコトルコ 横浜中華街,classroom,open,verified,神奈川県,横浜市中区,,yes,2026-10-03
+LOC019,セヴィンチエイト 横浜赤レンガ倉庫店,store,open,verified,神奈川県,横浜市中区,新港1-1 横浜赤レンガ倉庫2号館2F,yes,2026-10-03
+LOC020,セヴィンチエイト イクスピアリ店,store,open,unverified,千葉県,浦安市,舞浜1-4 イクスピアリ,yes,2026-10-03
+LOC021,東京ジャーミイ,religious_facility,open,verified,東京都,渋谷区,大山町1-19,yes,2026-10-03
+LOC022,トルコ文化センター 芝大門,cultural_facility,open,verified,東京都,港区,芝大門1-3-17 玉家ビル4階,yes,2026-10-03
+LOC031,欧米アジア語学センター,classroom,open,verified,東京都,千代田区,神田須田町1-4-1,yes,2026-10-03
+LOC032,上原社会教育館,venue,unknown,verified,東京都,渋谷区,,unknown,2026-10-03
+LOC033,渋谷区役所本庁舎1階展示スペース,venue,unknown,verified,東京都,渋谷区,,unknown,2026-10-03
+LOC034,トルコ記念館（串本町）,cultural_facility,unknown,verified,和歌山県,東牟婁郡串本町,樫野1025-26,yes,2026-10-17
+LOC035,abraj（アブラッシュ）,store,unknown,verified,大阪府,大阪市西区,南堀江2-9-24 1F,yes,2026-10-17
+LOC036,カランフィル（Karanfil）,store,unknown,verified,大阪府,大阪市中央区,天満橋京町1-1 京阪シティモール4F,yes,2026-10-17
+LOC037,Vitray トルコ雑貨,store,unknown,verified,大阪府,大阪市都島区,東野田町2-1-38 京阪モール2F,yes,2026-10-17
+LOC038,TAXiM（タクシム）,store,unknown,verified,愛知県,名古屋市東区,東桜2-15-39 グランドール東桜1F,yes,2026-10-17
+LOC039,hand craft shop kinari,store,unknown,verified,愛知県,名古屋市中区,栄3-31-13 加地ビル2F,yes,2026-10-17
+LOC040,らんぷ屋JIJI 小山店,store,unknown,verified,栃木県,小山市,犬塚5-13-9,yes,2026-10-21
+LOC041,らんぷ屋JIJI 那須高原店,store,unknown,verified,栃木県,那須町,大字高久乙23-150,yes,2026-10-21
+LOC042,メイハーネ,restaurant,unknown,verified,北海道,札幌市中央区,北1条西21丁目3-32,yes,2026-10-21
+LOC043,ナーディル・ギュル 松屋銀座店,store,unknown,verified,東京都,中央区,銀座3-6-1（松屋銀座）,yes,2026-10-21
+LOC044,ROGOBA東京店,store,unknown,verified,東京都,千代田区,東京都千代田区神田美土代町1 WORK VILLA MITOSHIRO 1階,unknown,2026-10-22
+LOC045,ROGOBA大阪店,store,unknown,verified,大阪府,大阪市中央区,大阪府大阪市中央区谷町3-1-24 エルデ大手前1F,unknown,2026-10-22
+LOC047,ZAKUROらんぷ家,store,unknown,verified,東京都,荒川区,東京都荒川区西日暮里3-15-5,yes,2026-10-22
+LOC048,ぎゃるぎゃる実店舗,store,unknown,verified,岡山県,倉敷市,岡山県倉敷市本町,yes,2026-10-22

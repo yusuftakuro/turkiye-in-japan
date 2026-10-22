@@ -1,0 +1,31 @@
+topic_id,name,parent_topic_id
+archaeology,Archaeology,culture
+architecture,Architecture,culture
+books,Books,culture
+carpet,Carpet,home_goods
+coffee,Coffee,food
+cooking,Cooking,culture
+culture,Culture,
+dance,Dance,culture
+fashion,Fashion,home_goods
+food,Food,
+history,History,culture
+home_goods,Home Goods,
+kilim,Kilim,home_goods
+lamp,Lamp,home_goods
+language,Language,
+music,Music,culture
+products,Products,
+religion,Religion,culture
+service,Service,
+sweets,Sweets,food
+tea,Tea,food
+trade,Trade,
+translation,Translation,service
+travel,Travel,service
+turkey_travel,Turkey Travel,
+turkish_culture,Turkish Culture,culture
+turkish_food,Turkish Food,food
+turkish_language,Turkish Language,language
+turkish_public_institution,Turkish Public Institution,
+wine,Wine,food

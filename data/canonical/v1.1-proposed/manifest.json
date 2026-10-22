@@ -1,0 +1,14 @@
+{
+  "version": "SSOT v1.1 proposed public-safe projection",
+  "canonical_data_source": "private full fixture in Library; never commit private internal_only addresses to the public repository",
+  "entity_count": 67,
+  "provisional_entity_count": 26,
+  "offering_count": 71,
+  "public_location_count": 35,
+  "omitted_nonpublic_or_nonvisitor_locations": 13,
+  "channel_count": 58,
+  "new_public_non_location_proof_rows": 76,
+  "accepted_original_ssot_regression_tests": "46/46 PASS",
+  "publication_status": "CANDIDATE_DATA_EXPORT_ONLY — NOT FED TO LIVE SITE",
+  "operational_caveat": "Operating status and offering availability may be unknown or stale; do not infer availability from appearance in this export."
+}
