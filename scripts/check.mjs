@@ -9,7 +9,7 @@ for(const f of pages){
  for(const pattern of [/<main\b[^>]*id="main"/,/<h1\b/,/<link rel="stylesheet" href="assets\/site.css"/,/<meta name="viewport"/])if(!pattern.test(html))failures.push(`${f}: missing ${pattern}`);
  if(/<main[^>]*>\s*<\/main>/.test(html))failures.push(`${f}: empty main`);
  for(const m of html.matchAll(/\bhref="([^"]+)"/g)){
-  const href=m[1]; if(href.startsWith('https:')||href.startsWith('#')||href.startsWith('mailto:'))continue;
+  const href=m[1]; if(href.startsWith('https:')||href.startsWith('http:')||href.startsWith('#')||href.startsWith('mailto:'))continue;
   const file=href.split(/[?#]/)[0]; if(file&&!existsSync(new URL(file,base)))failures.push(`${f}: broken local link ${href}`);
  }
 }

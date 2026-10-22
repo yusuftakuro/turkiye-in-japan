@@ -1,0 +1,12 @@
+import {readFileSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+const base=new URL('../',import.meta.url),read=p=>readFileSync(new URL(p,base),'utf8');
+const page=read('explore.html'),entities=read('data/canonical/v1.2-proposed/entities.csv');
+const ids=[...page.matchAll(/data-entity="(ENT\d+)"/g)].map(m=>m[1]);
+if(ids.length!==92||new Set(ids).size!==92||!page.includes('115件'))throw Error('Directory counts/identities not as expected');
+if(!page.includes('<noscript>')||!page.includes('現在の営業・受付状況：未確認。'))throw Error('Missing static fallback/caution');
+if(/<main[^>]*>\s*<\/main>/.test(page))throw Error('Empty main');
+if(page.includes('CARDS_GENERATED_HERE'))throw Error('Unexpanded directory template');
+if((page.match(/<article class="card directory-card"/g)||[]).length!==92)throw Error('HTML cards missing');
+execFileSync(process.execPath,[new URL('build_directory.mjs',import.meta.url).pathname,'--check'],{stdio:'inherit'});
+console.log('PASS: no-JS static directory, 92 unique Entities and warnings');

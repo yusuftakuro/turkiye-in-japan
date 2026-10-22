@@ -1,0 +1,31 @@
+name: Validate 92-entity directory
+on:
+  push:
+    paths:
+      - 'explore.html'
+      - 'index.html'
+      - 'assets/**'
+      - 'templates/**'
+      - 'scripts/build_directory.mjs'
+      - 'scripts/check_directory.mjs'
+      - 'data/canonical/v1.2-proposed/**'
+      - '.github/workflows/check-directory.yml'
+  pull_request:
+    paths:
+      - 'explore.html'
+      - 'index.html'
+      - 'assets/**'
+      - 'templates/**'
+      - 'scripts/build_directory.mjs'
+      - 'scripts/check_directory.mjs'
+      - 'data/canonical/v1.2-proposed/**'
+      - '.github/workflows/check-directory.yml'
+jobs:
+  directory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/check_directory.mjs
