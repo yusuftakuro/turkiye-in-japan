@@ -1,0 +1,5 @@
+relation_id,subject_entity_id,relation_type,object_entity_id,verification_status,verified_at
+ER001,ENT011,operated_by,ENT039,verified,2026-10-03
+ER002,ENT038,operated_by,ENT039,verified,2026-10-03
+ER003,ENT040,operated_by,ENT013,verified,2026-10-03
+ER004,ENT045,operated_by,ENT046,verified,2026-10-17
