@@ -1,0 +1,93 @@
+entity_id,public_name,entity_kind,entity_subtype,status,identity_review_status,verification_status,verified_at,official_url
+ENT001,株式会社イスタンブール（トルコレストラン イスタンブール）,business,,active,clear,verified,2026-10-03,https://istanbul.co.jp/
+ENT002,トルコ料理トプカプ,business,,active,clear,verified,2026-10-03,https://topkapi-dining.com/
+ENT003,チャンカヤ,business,,active,clear,verified,2026-10-03,https://www.cankaya.jp/
+ENT004,トルコ料理アセナ,business,,active,clear,verified,2026-10-03,https://urawa.asena.jp/
+ENT005,ボスボラスハサン,business,,active,clear,verified,2026-10-03,
+ENT006,ANATOLIA,business,,active,clear,verified,2026-10-03,https://www.anatoliatokyo.com/
+ENT007,ニューアリババ,business,,active,clear,verified,2026-10-03,https://alibaba-japan.owst.jp/
+ENT008,ケバブハウス YASHAR,business,,unknown,clear,unverified,2026-10-03,https://yashar-kebab.com/
+ENT009,トルコ館,business,,active,clear,unverified,2026-10-03,https://torukokan.com/
+ENT010,Dogal,business,,active,clear,verified,2026-10-03,https://dogal.jp/
+ENT011,Kilim Tokyo,business,brand,active,provisional,verified,2026-10-03,https://www.kilim.jp/
+ENT038,Kilim House,business,brand,active,provisional,verified,2026-10-03,https://www.kilimhouse.com/our_shop
+ENT039,株式会社アララット・インターナショナル,business,legal_operator,active,provisional,verified,2026-10-03,https://www.kilim.jp/pages/contact-form
+ENT012,ガラタバザール,business,,active,clear,verified,2026-10-03,https://www.galatabazaar.com/
+ENT013,株式会社いぐれっく,business,legal_operator,active,provisional,verified,2026-10-03,https://www.igrek.co.jp/
+ENT040,KilimStyle,business,brand,active,provisional,unverified,2026-10-03,https://kilimstyle.com/
+ENT014,Sultan（スルタン）,business,,active,clear,verified,2026-10-03,https://sultan-harak.com/
+ENT015,LORD HANDMADE GALLERY,business,,active,clear,verified,2026-10-03,https://www.lordtokyo.com/
+ENT016,ミチコトルコ,business,,active,clear,verified,2026-10-03,http://m-torco.com/
+ENT017,sevinç8（横浜赤レンガ倉庫掲載主体）,business,provisional_location_business,active,needs_review,unverified,2026-10-03,https://www.yokohama-akarenga.jp/shops/shop02-24/
+ENT041,sevinç8（イクスピアリ掲載主体）,business,provisional_location_business,active,needs_review,unverified,2026-10-03,https://www.ikspiari.com/shop/shops/4816/
+ENT018,キリムファイン,business,,active,clear,unverified,2026-10-03,
+ENT019,株式会社トゥーバトレーディング,business,,unknown,clear,unverified,2026-10-03,https://tugba.co.jp/
+ENT020,株式会社Kaliber,business,,active,clear,verified,2026-10-03,https://kaliber.co.jp/
+ENT021,株式会社ADYトレーディング,business,,active,clear,verified,2026-10-03,https://www.adytrading.com/
+ENT022,İstanbul Bussan,business,,active,clear,verified,2026-10-03,https://istanbul-bussan.jp/
+ENT023,Discover Turkish Food（トルコ食品プロモーション事務局）,media,,unknown,clear,unverified,2026-10-03,https://www.discoverturkishfood.com/
+ENT024,東京ジャーミイ・ディヤーナト トルコ文化センター,religious_institution,,active,clear,verified,2026-10-03,https://tokyocamii.org/ja/
+ENT025,トルコ文化センター（芝大門）,cultural_institution,,active,clear,verified,2026-10-03,https://www.turkeycenter.co.jp/
+ENT026,一般社団法人 日本・トルコ協会,nonprofit,,active,clear,verified,2026-10-03,https://www.tkjts.jp/
+ENT027,日本トルコ交流協会（八王子）,nonprofit,,unknown,clear,unverified,2026-10-03,
+ENT028,日本トルコ親善交流協会,nonprofit,,unknown,clear,unverified,2026-10-03,
+ENT029,日本トルコ文化交流会,nonprofit,,unknown,clear,unverified,2026-10-03,
+ENT030,駐日トルコ共和国大使館,public_body,,active,clear,verified,2026-10-03,https://tokyo-emb.mfa.gov.tr/
+ENT031,トルコ共和国大使館 商務部（東京）,public_body,,active,clear,unverified,2026-10-03,https://ticaret.gov.tr/dis-iliskiler/yurt-disi-teskilatimiz
+ENT032,日本・トルコネットワーク TURKIYE.JP,media,,active,clear,unverified,2026-10-03,https://www.turkiye.jp/
+ENT033,三笠宮記念財団,nonprofit,,active,clear,verified,2026-10-03,https://www.pmv.tokyo.jp/
+ENT034,Turkish Airlines（日本発トルコ行き公式予約サービス）,business,,active,clear,verified,2026-10-03,https://www.turkishairlines.com/ja-jp/
+ENT035,モザイクランプ★まむ,business,,active,clear,verified,2026-10-03,https://mosaiclampmam.com/
+ENT036,渋谷区,public_body,,active,clear,verified,2026-10-03,https://www.city.shibuya.tokyo.jp/
+ENT037,欧米アジア語学センター,business,,active,clear,verified,2026-10-03,https://fij.tokyo/
+ENT042,トルコ記念館（串本町）,cultural_institution,,unknown,provisional,verified,2026-10-17,https://www.town.kushimoto.wakayama.jp/kanko/oshima/torukokinenkan.html
+ENT043,トルコ軍艦遭難慰霊碑（串本町）,cultural_institution,,unknown,provisional,verified,2026-10-17,https://www.town.kushimoto.lg.jp/kanko/oshima/torucogunkan.html
+ENT044,abraj（アブラッシュ）,business,retailer,unknown,provisional,verified,2026-10-17,https://www.abraj.jp/
+ENT045,カランフィル（Karanfil）,business,retailer,unknown,provisional,verified,2026-10-17,https://www.topkapi-kilim.jp/
+ENT046,有限会社アラトゥルカ,business,retailer,unknown,provisional,verified,2026-10-17,https://alaturka.shopinfo.jp/
+ENT047,Vitray トルコ雑貨,business,retailer,unknown,provisional,verified,2026-10-17,https://www.torukoshop.com/
+ENT048,カラデニズ（移動販売）,business,retailer,unknown,provisional,verified,2026-10-17,https://www.karadenizrestaurant.net/
+ENT049,TAXiM（タクシム）,business,retailer,unknown,provisional,verified,2026-10-17,https://www.taxim-cafe.jp/
+ENT050,hand craft shop kinari,business,retailer,unknown,provisional,verified,2026-10-17,https://handcraft-nagoya.com/
+ENT051,オヤの会（Oya No Kai）,community,,unknown,provisional,verified,2026-10-17,https://www.oyalari.jp/
+ENT052,らんぷ屋JIJI,business,craft_shop,unknown,provisional,verified,2026-10-21,https://www.lampya-jiji.com/
+ENT053,トルコ料理専門店 メイハーネ,business,restaurant,unknown,provisional,verified,2026-10-21,https://meyhane.jp/
+ENT054,Berfin Kilim（ベルフィンキリム）,business,online_retailer,unknown,provisional,verified,2026-10-21,https://berfinkilim.com/
+ENT055,ナーディル・ギュル ジャパン,business,retail_brand,unknown,provisional,verified,2026-10-21,https://www.nadirgullu.jp/
+ENT056,イーネオヤ ロゼット（iğne oya Rosette）,business,online_retailer,unknown,provisional,verified,2026-10-21,https://igneoya-rosette.ocnk.net/
+ENT057,WASABI-Elisi（ワサビ・エリシ）,business,craft_workshop,unknown,provisional,verified,2026-10-22,https://wasabielisi.com/
+ENT058,ROGOBA（ロゴバ）,business,kilim_brand,unknown,provisional,verified,2026-10-22,https://rogobakilim.com/
+ENT059,ARTLINE（アートライン）,business,kilim_retailer,unknown,provisional,verified,2026-10-22,https://www.artlinekilim.com/
+ENT060,ZAKUROらんぷ家,business,lamp_workshop,unknown,provisional,verified,2026-10-22,https://zakuro-lampya.com/
+ENT061,クリムゾン・ジャパン,business,translation_service,unknown,provisional,verified,2026-10-22,https://www.crimsonjapan.co.jp/
+ENT062,トルコ雑貨＆カフェ ぎゃるぎゃる,business,turkish_goods_and_cafe,unknown,provisional,verified,2026-10-22,https://www.gelgel.jp/
+ENT063,ESMA（トルコ雑貨）,business,online_retailer,unknown,provisional,verified,2026-10-22,https://esma1210.thebase.in/
+ENT064,NOVAROMA,business,online_retailer,unknown,provisional,verified,2026-10-22,https://www.novaromashop.com/
+ENT065,ブルーコテージ（ぬくもりの森）,business,turkish_goods_store,unknown,provisional,verified,2026-10-22,https://toruko.crayonsite.com/
+ENT066,ミフリ＆アクチェ,business,cross_border_retailer,unknown,provisional,verified,2026-10-22,https://mihri.ocnk.net/
+ENT067,C-BOW（トルコのオヤ雑貨）,business,cross_border_retailer,unknown,provisional,verified,2026-10-22,https://c-bow.ocnk.net/
+ENT068,大阪トルコ文化センター,cultural_institution,,unknown,provisional,verified,2026-10-17,https://turkeycenter.jp/
+ENT069,特定非営利活動法人 日本多文化交流協会,nonprofit,,unknown,provisional,verified,2026-10-17,https://nihon-tabunka.org/
+ENT070,日本トルコ文化協会（京都）,nonprofit,,unknown,provisional,verified,2026-10-17,
+ENT071,串本町トルコ文化協会,nonprofit,,unknown,provisional,verified,2026-10-17,https://1890kushimototurk.jimdofree.com/
+ENT072,串本町トルコ文化センター,cultural_institution,,unknown,provisional,verified,2026-10-17,https://1890kushimototurk.jimdofree.com/
+ENT073,KCR,business,retailer,unknown,provisional,verified,2026-10-17,https://www.kcrjp.com/
+ENT074,タイヨウのカフェ（串本町）,business,retailer,unknown,provisional,verified,2026-10-17,https://www.kcrjp.com/
+ENT075,在名古屋トルコ共和国総領事館,public_body,,unknown,provisional,verified,2026-10-17,https://nagoya-bk.mfa.gov.tr/
+ENT076,在大阪トルコ共和国名誉総領事館,public_body,,unknown,provisional,verified,2026-10-17,
+ENT077,在和歌山トルコ共和国名誉総領事館,public_body,,unknown,provisional,verified,2026-10-17,
+ENT078,在福岡トルコ共和国名誉総領事館,public_body,,unknown,provisional,verified,2026-10-17,
+ENT079,大阪大学外国語学部 トルコ語専攻,cultural_institution,,unknown,provisional,verified,2026-10-17,https://www.sfs.osaka-u.ac.jp/major/turkish/
+ENT080,KILIM ANATOLIA KYOTO（キリムアナトリア）,business,retailer,unknown,provisional,verified,2026-10-17,https://www.kilimanatolia.com/
+ENT081,九州・トルコ協会,nonprofit,association,unknown,provisional,verified,2026-10-21,https://www.kyushu-turkiye.org/
+ENT082,公益財団法人 中近東文化センター,nonprofit,foundation,unknown,provisional,verified,2026-10-21,https://www.meccj.or.jp/
+ENT083,アナトリア考古学研究所（JIAA）,cultural_institution,research_institute,unknown,provisional,verified,2026-10-21,https://www.jiaa-kaman.com/
+ENT084,日本トルコモザイクランプ協会,other,craft_education_network,unknown,provisional,verified,2026-10-21,https://www.jtml-association.com/
+ENT085,トルコ共和国大使館・文化広報参事官室,public_body,diplomatic_office,unknown,provisional,verified,2026-10-21,https://goturkiye.jp/ja/homepage
+ENT086,慶應外語（慶應義塾大学外国語教育研究センター）,cultural_institution,education_program,unknown,provisional,verified,2026-10-22,https://www.fls.keio.ac.jp/levelall-10aki/levelall-trk.html
+ENT087,慶應義塾大学言語文化研究所,cultural_institution,research_and_education,unknown,provisional,verified,2026-10-22,https://www.icl.keio.ac.jp/tokushukouza.html
+ENT088,朝日カルチャーセンター横浜教室,business,learning_center,unknown,provisional,verified,2026-10-22,https://www.asahiculture.com/
+ENT089,NHK文化センター梅田教室,business,learning_center,unknown,provisional,verified,2026-10-22,https://www.nhk-cul.co.jp/
+ENT090,ヨークカルチャーセンター大船,business,learning_center,unknown,provisional,verified,2026-10-22,https://www.culture.gr.jp/detail/oofuna/1953602
+ENT091,自由が丘産経学園,business,learning_center,unknown,provisional,verified,2026-10-22,https://www.culture.gr.jp/detail/sk.jiyugaoka/4559366
+ENT092,ANATOLIAN RUGS,business,kilim_retailer,unknown,provisional,verified,2026-10-22,https://anatolianrugs.net/

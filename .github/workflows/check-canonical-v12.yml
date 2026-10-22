@@ -1,0 +1,21 @@
+name: Validate SSOT v1.2 public projection
+on:
+  push:
+    paths:
+      - 'data/canonical/v1.2-proposed/**'
+      - 'scripts/check_canonical_public_v12.py'
+      - '.github/workflows/check-canonical-v12.yml'
+  pull_request:
+    paths:
+      - 'data/canonical/v1.2-proposed/**'
+      - 'scripts/check_canonical_public_v12.py'
+      - '.github/workflows/check-canonical-v12.yml'
+jobs:
+  validate-public-export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/check_canonical_public_v12.py
