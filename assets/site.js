@@ -1,34 +1,10 @@
-// Progressive enhancement only: page content and navigation exist without JavaScript.
-(() => {
-  const panel = document.querySelector('[data-explore]');
-  if (!panel) return;
-  const cards = Array.from(panel.querySelectorAll('[data-card]'));
-  const buttons = Array.from(panel.querySelectorAll('[data-filter]'));
-  const input = panel.querySelector('input[name="q"]');
-  const empty = panel.querySelector('[data-empty]');
-  const resultSummary = panel.querySelector('#directory-results');
-  const params = new URLSearchParams(location.search);
-  const aliases = {food:'eat',shopping:'shop',learning:'learn',activity:'experience'};
-  let activity = aliases[params.get('activity')] || params.get('activity') || 'all';
-  if (!['all','eat','shop','learn','experience'].includes(activity)) activity = 'all';
-  const query = (params.get('q') || '').trim();
-  if (input) input.value = query;
-  const normalize = v => String(v||'').normalize('NFKC').toLocaleLowerCase('ja');
-  const refresh = () => {
-    let shown = 0;
-    const term = normalize(input?.value || '');
-    for (const card of cards) {
-      const types = (card.getAttribute('data-activity') || '').split(' ');
-      const text = normalize(card.getAttribute('data-keywords') || '') + normalize(card.textContent || '');
-      const match = (activity==='all'||types.includes(activity)) && (!term||text.includes(term));
-      card.hidden = !match;
-      if (match) shown++;
-    }
-    for (const button of buttons) button.setAttribute('aria-pressed',String(button.dataset.filter===activity));
-    if (empty) empty.hidden = shown!==0;
-    if (resultSummary) resultSummary.textContent = `${shown}件の記録を表示`;
-  };
-  for (const button of buttons) button.addEventListener('click',() => {activity=button.dataset.filter;refresh()});
-  input?.addEventListener('input',refresh);
-  refresh();
-})();
+// Search and filters enhance the complete static HTML directory.
+(()=>{const root=document.querySelector('[data-explore]');if(!root)return;
+const cards=[...root.querySelectorAll('[data-card]')],filters=[...root.querySelectorAll('[data-filter]')],input=root.querySelector('input[name="q"]'),region=root.querySelector('[data-region-select]'),more=root.querySelector('[data-load-more]'),count=root.querySelector('#directory-results'),empty=root.querySelector('[data-empty]');
+const params=new URLSearchParams(location.search),aliases={food:'eat',shopping:'shop',learning:'learn',activity:'experience'};
+let activity=aliases[params.get('activity')]||params.get('activity')||'all';if(!['all','eat','shop','learn','experience'].includes(activity))activity='all';
+if(input)input.value=params.get('q')||'';if(region&&[...region.options].some(o=>o.value===params.get('region')))region.value=params.get('region');
+let limit=18;const norm=v=>String(v||'').normalize('NFKC').toLocaleLowerCase('ja').trim();
+function updateUrl(){const p=new URLSearchParams();if(input?.value.trim())p.set('q',input.value.trim());if(activity!=='all')p.set('activity',activity);if(region?.value)p.set('region',region.value);try{history.replaceState(null,'',location.pathname+(p.toString()?'?'+p.toString():''))}catch{}}
+function show(){const q=norm(input?.value||''),area=norm(region?.value||'');let matched=0;for(const c of cards){const a=(c.dataset.activity||'').split(' '),text=norm((c.dataset.keywords||'')+' '+c.textContent);const ok=(activity==='all'||a.includes(activity))&&(!area||text.includes(area))&&(!q||text.includes(q));if(ok)matched++;c.hidden=!ok||matched>limit;}filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===activity)));if(count)count.textContent=matched+'件の掲載先が見つかりました';if(more)more.hidden=matched<=limit;if(empty)empty.hidden=matched!==0}
+filters.forEach(b=>b.addEventListener('click',()=>{activity=b.dataset.filter;limit=18;updateUrl();show()}));input?.addEventListener('input',()=>{limit=18;updateUrl();show()});region?.addEventListener('change',()=>{limit=18;updateUrl();show()});more?.addEventListener('click',()=>{limit+=18;show()});show()})();
