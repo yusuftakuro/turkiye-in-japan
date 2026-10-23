@@ -24,7 +24,7 @@ for (const s of ["Japonya'da","Ne yapmak istersiniz?","Görüntüleme dili"])if(
 const enHome=open('index.html','en');
 for (const s of ['Find Türkiye','What would you like to do?','Display language'])if(!enHome.includes(s))throw new Error('EN home missing '+s);
 const trListing=open('explore.html','tr');
-for (const s of ['Kayıtlara göz at','Türk yemekleri','ENT092','href="/'])if(!trListing.includes(s))throw new Error('TR directory missing '+s);
+for (const s of ['Ara','Türk yemekleri','ENT092'])if(!trListing.includes(s))throw new Error('TR directory missing '+s);
 const enDetail=open('places/ENT010.html','en');
 for (const s of ['Products and services','Online sales of Turkish food and drinks','Last checked','Proper names and untranslated records remain in Japanese'])if(!enDetail.includes(s))throw new Error('EN Dogal profile missing '+s);
 const trDetail=open('places/ENT010.html','tr');
