@@ -1,0 +1,33 @@
+name: Verify Entity detail pages
+on:
+  push:
+    paths:
+      - 'places/**'
+      - 'assets/detail.css'
+      - 'explore.html'
+      - 'scripts/build_directory.mjs'
+      - 'scripts/build_details.mjs'
+      - 'scripts/check_details.mjs'
+      - 'data/canonical/v1.2-proposed/**'
+      - '.github/workflows/check-details.yml'
+  pull_request:
+    paths:
+      - 'places/**'
+      - 'assets/detail.css'
+      - 'explore.html'
+      - 'scripts/build_directory.mjs'
+      - 'scripts/build_details.mjs'
+      - 'scripts/check_details.mjs'
+      - 'data/canonical/v1.2-proposed/**'
+      - '.github/workflows/check-details.yml'
+jobs:
+  details:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/check_details.mjs
+      - run: node scripts/check_directory.mjs
+      - run: npm test
