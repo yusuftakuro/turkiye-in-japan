@@ -51,7 +51,7 @@ function profile(e){
  const category=categories[e.entity_kind]||'団体・その他';
  const available=eo.length?eo.map(o=>{
    const applicableIds=new Set(channelOfferings.filter(x=>x.offering_id===o.offering_id).map(x=>x.channel_id));
-   const linkedChannels=ec.filter(c=>applicableIds.has(c.channel_id));
+   const linkedChannels=ec.filter(c=>applicableIds.has(c.channel_id) && c.availability_status !== 'unavailable');
    const how=linkedChannels.length?`<small>関連する経路：${esc([...new Set(linkedChannels.map(c=>channelNames[c.channel_type]||'その他'))].join('、'))}</small>`:'';
    return `<li><span>${esc(o.name)}</span>${how}</li>`;
  }):['<li>提供内容は公開データに登録されていません。</li>'];
@@ -61,8 +61,9 @@ function profile(e){
    return `<li><span><strong>${esc(l.name)}</strong>${area?' · '+esc(area):''}</span><small>${historical?'閉店・終了の記録':'現在の来訪可否は未確認'}</small></li>`;
  }):['<li>公開可能な拠点情報は登録されていません。</li>'];
  const routes=ec.length?ec.map(c=>{
-   const label=channelNames[c.channel_type]||'利用経路';const url=http(c.url);
-   return `<li><span>${esc(label)}</span>${url?`<a target="_blank" rel="noopener noreferrer" href="${esc(url)}">該当する案内を見る ↗</a>`:'<small>リンク未登録</small>'}</li>`;
+   const ended=c.availability_status==='unavailable';
+   const label=(channelNames[c.channel_type]||'利用経路')+(ended?'（終了した記録）':'');const url=http(c.url);
+   return `<li><span>${esc(label)}</span>${ended?'<small>現在は利用できません</small>':url?`<a target="_blank" rel="noopener noreferrer" href="${esc(url)}">該当する案内を見る ↗</a>`:'<small>リンク未登録</small>'}</li>`;
  }):['<li>利用経路は公開データに未登録です。</li>'];
  const relationLines=[];
  for (const r of relations){if(r.verification_status!=='verified')continue;
