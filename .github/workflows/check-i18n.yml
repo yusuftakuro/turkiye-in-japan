@@ -1,0 +1,44 @@
+name: Validate trilingual site interface
+on:
+  push:
+    paths:
+      - 'assets/i18n.js'
+      - 'assets/site.css'
+      - 'assets/site.js'
+      - 'index.html'
+      - 'explore.html'
+      - 'events.html'
+      - 'dogal.html'
+      - 'tokyo-camii.html'
+      - 'places/**'
+      - 'templates/explore-shell.html'
+      - 'scripts/build_details.mjs'
+      - 'scripts/check_i18n.mjs'
+      - '.github/workflows/check-i18n.yml'
+  pull_request:
+    paths:
+      - 'assets/i18n.js'
+      - 'assets/site.css'
+      - 'assets/site.js'
+      - 'index.html'
+      - 'explore.html'
+      - 'events.html'
+      - 'dogal.html'
+      - 'tokyo-camii.html'
+      - 'places/**'
+      - 'templates/explore-shell.html'
+      - 'scripts/build_details.mjs'
+      - 'scripts/check_i18n.mjs'
+      - '.github/workflows/check-i18n.yml'
+jobs:
+  i18n:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/check_i18n.mjs
+      - run: node scripts/check_directory.mjs
+      - run: node scripts/check_details.mjs
+      - run: npm test
