@@ -25,7 +25,7 @@ function renderDirectory(shell,datasets){
   for(const o of offerings)(offered[o.entity_id]??=[]).push(o);
   for(const j of joins)if(locBy[j.location_id]?.public_access==="yes")(linked[j.entity_id]??=[]).push(locBy[j.location_id]);
   for(const t of tags)(tagged[t.entity_id]??=[]).push(t.relation_tag_id);
-  const actTypes={food_service:"eat",retail:"shop",import:"shop",wholesale:"shop",import_and_manufacturing:"shop",class:"learn",lecture:"learn",workshop:"experience",museum_visit:"experience",visit:"experience"};
+  const actTypes={food_service:"eat",retail:"shop",class:"learn",lecture:"learn",workshop:"experience",museum_visit:"experience",visit:"experience"};
   const actNames={eat:"食べる",shop:"買う",learn:"学ぶ",experience:"体験する"};
   const kindLabels={business:"BUSINESS",nonprofit:"ORGANIZATION",cultural_institution:"CULTURE",religious_institution:"CULTURE",community:"COMMUNITY",public_body:"PUBLIC INSTITUTION",media:"MEDIA",other:"ORGANIZATION"};
   const cards=entities.map(e=>{
