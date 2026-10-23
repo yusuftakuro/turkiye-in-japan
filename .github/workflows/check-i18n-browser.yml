@@ -1,0 +1,27 @@
+name: Browser QA for EN and TR
+on:
+  push:
+    paths:
+      - 'assets/i18n.js'
+      - 'scripts/check_i18n_browser.mjs'
+      - 'index.html'
+      - 'explore.html'
+      - 'places/**'
+      - '.github/workflows/check-i18n-browser.yml'
+  pull_request:
+    paths:
+      - 'assets/i18n.js'
+      - 'scripts/check_i18n_browser.mjs'
+      - 'index.html'
+      - 'explore.html'
+      - 'places/**'
+      - '.github/workflows/check-i18n-browser.yml'
+jobs:
+  browser-translation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/check_i18n_browser.mjs
