@@ -1,43 +1,40 @@
 # CURRENT — Türkiye in Japan
 Updated: 2026-10-24 (Asia/Tokyo)
-Status: reorganization pilot; do not infer any worker is running from an Issue alone.
+Status: first five-Entity evidence pilot in QA/HOLD; P1 corrective Draft PR queued.
 
-## Authority / sources
-1. Owner's accepted requirements and decisions; changes require explicit approval where consequential.
-2. Complete SSOT v1.2 **proposed** full fixture in private Library: canonical candidate, not public production data.
-3. `main` on GitHub: implementation fact; `data/canonical/v1.2-proposed/` is public-safe projection and not the full private fixture.
-4. This CURRENT: **task routing**, not a second data SSOT. GitHub Issues/PRs record task changes; CI and deployed website provide separate evidence.
-5. AI Knowledge Lab is advisory only. Its docs are not required to resume; do not copy the Knowledge Registry or its rules into this project.
+## Authority
+- Owner sets priorities and approves consequential canonical, identity, privacy and public release changes.
+- `main` is the implementation baseline; the **full v1.2 proposed SSOT** is separately held in private Library.
+- `data/canonical/v1.2-proposed/` is a **public-safe projection**, not a complete private canonical fixture. 92 Entities, 115 Offerings, 51 provisional, 38 public-safe Locations.
+- GitHub Issues/PRs record tasks and evidence; CI and live deployment require separate checks.
+- AI Knowledge Lab is reference guidance, not a mandatory runtime dependency.
 
-## Observed baseline
-- Latest checked main at reset: `7cb6ab4f15b959339675ef5f039fa03d5787a175`. Always read fresh HEAD before acting.
-- Deployed static site: https://yusuftakuro.github.io/turkiye-in-japan/
-- 92 Entities, 115 Offerings, 51 provisional; 92 static profiles; Japanese/English/Turkish *interface*, not completely translated source content.
-- 38 public-safe locations in proposed export; source and current operating/visit status require per-entity verification.
-- 8 existing GitHub Actions workflows. No open PR observed at reset.
-- Some inherited documentation is outdated (e.g. manifest describing v1.2 as not displayed online); do not rely on historical text over the actual current implementation.
-- Existing Issues #1, #2, #4, #6, #8, #10, #12 have older history or outstanding questions. They are **not** implicitly assigned to a new lane; do not close without verification.
+## Current GitHub state (checked 2026-10-24)
+- `main`: `3fb44752f3074a446bb31d349a0019edf6f80818` at this checkpoint. Always refresh before acting.
+- Site: https://yusuftakuro.github.io/turkiye-in-japan/ — 92 static detail profiles; ja/en/tr interface (not fully translated source content). No claim of all venues currently open.
+- `01` five-record evidence review: [Issue #21](https://github.com/yusuftakuro/turkiye-in-japan/issues/21), [Draft PR #25](https://github.com/yusuftakuro/turkiye-in-japan/pull/25) at head `18f14bec0e99907e36f7a23c097b5dcd43302b4f`, **unmerged**. Exactly 3 new review-only files, 5 summary rows, 17 atomic evidence candidates. Existing site/data unchanged.
+- `02` independent QA: [Issue #22](https://github.com/yusuftakuro/turkiye-in-japan/issues/22). Separate-Chat QA findings transcribed by 00 to GitHub; five *producer dispositions* accepted, but overall **HOLD** (P1 Dogal contradiction; not all named regression checks independently run). ENT070 current operation is INCONCLUSIVE.
+- `00` coordination: [Issue #23](https://github.com/yusuftakuro/turkiye-in-japan/issues/23).
 
-## Active pilot (5 entities)
-- 00 coordination: [#23](https://github.com/yusuftakuro/turkiye-in-japan/issues/23).
-- 01 source research / candidate changes (Work): [#21](https://github.com/yusuftakuro/turkiye-in-japan/issues/21).
-- 02 independent QA / baseline / candidate review (Chat + CI): [#22](https://github.com/yusuftakuro/turkiye-in-japan/issues/22).
-- Exact set: ENT001, ENT010, ENT042, ENT070, ENT086.
-- No canonical merge, schema change, site content release or public availability assertion is authorized by this pilot.
-- `01` may draft a proposal PR; `02` reviews a frozen commit read-only; `00` decides routing and separately requests authorization where needed.
+## Next active routing
+1. **01 / P1 / QUEUED:** [Issue #26](https://github.com/yusuftakuro/turkiye-in-japan/issues/26) — propose correction of Dogal closed online sales (OFF011, CH002) and avoid misleading shop filter/profile. **New Draft PR, no merge or deploy.** Distinguish café/old market; no new Location or Entity without identity review.
+2. **02 / QA:** complete unexecuted named checks for #25; then review #26 at its **new fixed head SHA** independently and read-only. Report PASS/FAIL/INCONCLUSIVE, URLs, scope, CI, site semantics.
+3. **01 / P2 / QUEUED:** [Issue #27](https://github.com/yusuftakuro/turkiye-in-japan/issues/27) — Keio 2026 autumn enrollment deadline and Zoom-only format, time-scoped; after #26.
+4. **00:** assess QA, Owner decision where needed, integrate only authorized reviewed changes; then verify actual deployment and public content.
+
+## Scope/quality rules
+- Entity identity, Offering availability, Channel availability, Location visitor access, course registration period and real-time opening are distinct fields/claims.
+- `unknown` is not `available`. An online site still displaying a catalog does not by itself prove checkout is active. Ordinary hours do not prove live availability.
+- Full private SSOT and public projection must not silently diverge; an interim projection correction must be labeled and reconciled later.
+- No sensitive/private addresses in GitHub. No blanket translation of proper names or unverified claims.
+- `01` may create candidate PR; `02` is READ_ONLY; `00` manages release gates.
+- For product changes: tests, frozen SHA, independent QA, explicit merge gate, and post-deploy verification. Do not weaken tests.
 
 ## State machine
 QUEUED → ACTIVE → QA → READY → INTEGRATED; exceptions HOLD / STOP.
-- `01` reports deliverable as `QA`; NEVER declares own candidate canonically accepted.
-- `02` reports PASS / FAIL / INCONCLUSIVE with sources and exact SHA; cannot mutate canonical/main.
-- `00` advances status only using GitHub evidence, not text from old conversations.
-- `READY` is not live. `INTEGRATED` requires merged PR + deploy and behavior checks when web changed.
-
-## Immediate NEXT
-1. Keep product unchanged while bootstrapping operations docs (current PR).
-2. Owner opens `01` in Work and `02` in a separate Chat using `docs/ops/START.md`; this chat remains 00.
-3. Run issue #22 baseline independently at fresh `main`, while issue #21 checks existing source facts and proposes changes.
-4. Independent reviewer checks frozen PR SHA; 00 collates results and compares effort/quality against simple single-workflow baseline.
+- `READY` ≠ deployed.
+- `INTEGRATED` for user-facing change requires merged SHA, CI and live-site verification.
+- Chat and Work are not always-on background processes; opening a new Issue does not launch Work.
 
 ## Restart
-Always read AGENTS.md, this document, own Issue, GitHub main/PR and relevant tests. No rehydration from Chat memory alone. If GitHub access or source evidence is unavailable, STOP_AND_REPORT accurately instead of inventing progress.
+Read `AGENTS.md`, this CURRENT, own Issue and latest GitHub head/PR/CI. `docs/ops/START.md` has copy-ready current prompts. Use task evidence, not stale chat context.
