@@ -46,6 +46,21 @@
     return null;
   }
 
+  Object.assign(dictionaries.en, {
+    "オンライン販売終了（2026年5月31日）": "Online sales ended on 31 May 2026.",
+    "オンライン販売は2026年5月31日に終了しました。カフェの営業とは別の情報です。": "Online sales ended on 31 May 2026. This status refers only to online sales, not the café.",
+    "公式のお知らせ ↗": "Official notice ↗",
+    "公式ページ確認日：2026年10月25日。": "Official page checked on 25 October 2026.",
+    "（利用不可）": " (unavailable)"
+  });
+  Object.assign(dictionaries.tr, {
+    "オンライン販売終了（2026年5月31日）": "Çevrimiçi satışlar 31 Mayıs 2026'da sona erdi.",
+    "オンライン販売は2026年5月31日に終了しました。カフェの営業とは別の情報です。": "Çevrimiçi satışlar 31 Mayıs 2026'da sona erdi. Bu bilgi yalnızca çevrimiçi satışlarla ilgilidir; kafeyi kapsamaz.",
+    "公式のお知らせ ↗": "Resmî duyuru ↗",
+    "公式ページ確認日：2026年10月25日。": "Resmî sayfa 25 Ekim 2026 tarihinde kontrol edildi.",
+    "（利用不可）": " (kullanılamıyor)"
+  });
+
   function translateValue(value) {
     if (language==='ja') return value;
     const leading = value.match(/^\s*/)[0], trailing=value.match(/\s*$/)[0];

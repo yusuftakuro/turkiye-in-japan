@@ -18,6 +18,7 @@ function csvParse(csv){
 function escapeHtml(v){return String(v||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");}
 function renderDirectory(shell,datasets){
   const entities=csvParse(datasets.entities),offerings=csvParse(datasets.offerings),locations=csvParse(datasets.locations),joins=csvParse(datasets.location_entities),tags=csvParse(datasets.entity_relation_tags);
+  const correction=datasets.correction;
   if(entities.length!==92||offerings.length!==115||locations.length!==38)throw Error("Unexpected canonical projection counts");
   const ids=new Set(entities.map(e=>e.entity_id));
   if(ids.size!==92||offerings.some(o=>!ids.has(o.entity_id))||joins.some(o=>!ids.has(o.entity_id)))throw Error("Duplicate entity ID or FK mismatch");
@@ -30,7 +31,8 @@ function renderDirectory(shell,datasets){
   const kindLabels={business:"BUSINESS",nonprofit:"ORGANIZATION",cultural_institution:"CULTURE",religious_institution:"CULTURE",community:"COMMUNITY",public_body:"PUBLIC INSTITUTION",media:"MEDIA",other:"ORGANIZATION"};
   const cards=entities.map(e=>{
     const oo=offered[e.entity_id]||[],ll=linked[e.entity_id]||[];
-    const acts=[...new Set(oo.map(o=>actTypes[o.offering_type]).filter(Boolean))];
+    // Exclude only explicitly unavailable offerings. Unknown availability remains discoverable.
+    const acts=[...new Set(oo.filter(o=>o.availability_status!=='unavailable').map(o=>actTypes[o.offering_type]).filter(Boolean))];
     const regions=[...new Set(ll.map(l=>(l.prefecture||"")+(l.city||"")).filter(Boolean))].slice(0,3).join("、");
     let kind=kindLabels[e.entity_kind]||"ORGANIZATION";
     if(acts.includes("eat"))kind="EAT / FOOD";
@@ -38,11 +40,12 @@ function renderDirectory(shell,datasets){
     else if(acts.includes("learn"))kind="LEARN / CLASS";
     else if(acts.includes("experience"))kind="CULTURE / EXPERIENCE";
     const names=[...new Set(oo.map(o=>o.name).filter(Boolean))];
-    const desc=(names.slice(0,3).join("／")||"登録された団体・施設等の情報").slice(0,140);
+    const currentNames=[...new Set(oo.filter(o=>o.availability_status!=='unavailable').map(o=>o.name).filter(Boolean))];
+    const desc=e.entity_id===correction.entity_id?`オンライン販売は${correction.closure_date.slice(0,4)}年${Number(correction.closure_date.slice(5,7))}月${Number(correction.closure_date.slice(8,10))}日に終了しました。カフェの営業とは別の情報です。`:(currentNames.slice(0,3).join("／")||"登録された団体・施設等の情報").slice(0,140);
     const key=[e.public_name,e.entity_id,regions,names.join(" "),(tagged[e.entity_id]||[]).join(" "),acts.map(a=>actNames[a]).join(" ")].filter(Boolean).join(" ");
     const provisional=e.identity_review_status!=="clear";
     const access=ll.length?ll.map(l=>`<li>${escapeHtml(l.name)}</li>`).join(""):"<li>公開可能な来訪先情報なし</li>";
-    const offList=(names.length?names:["確認中"]).map(n=>`<li>${escapeHtml(n)}</li>`).join("");
+    const offList=(oo.length?oo.map(o=>`<li>${escapeHtml(o.name)}${o.availability_status==='unavailable'?'<small>（利用不可）</small>':''}</li>`):["確認中"].map(n=>`<li>${escapeHtml(n)}</li>`)).join("");
     const validUrl=/^https?:\/\/[^\/\s:@]+(?:[\/?#]|$)/i.test(e.official_url||"");
     const link=validUrl?`<a class="card-link" href="${escapeHtml(e.official_url)}" target="_blank" rel="noopener noreferrer">公式情報を見る ↗</a>`:'<span class="muted">公式URLは調査中</span>';
     return `<article class="card directory-card" data-card data-entity="${escapeHtml(e.entity_id)}" data-activity="${escapeHtml(acts.join(" "))}" data-keywords="${escapeHtml(key)}"><div class="smallcaps">${escapeHtml(kind)} <span class="directory-id">${escapeHtml(e.entity_id)}</span></div><h2>${escapeHtml(e.public_name)}</h2><p>${escapeHtml(desc)}</p><div class="meta">${regions?`<span>${escapeHtml(regions)}</span>`:""}<span>${provisional?"暫定登録":"記録あり"}</span></div><details class="directory-details"><summary>提供内容・確認情報</summary><p>現在の営業・受付状況：未確認。${provisional?"主体情報も暫定登録。":""}<br>データ確認日：${escapeHtml(e.verified_at||"未確認")}</p><strong>関連する内容</strong><ul>${offList}</ul><strong>登録されている公開拠点</strong><ul>${access}</ul></details><div class="directory-links"><a class="detail-link" href="places/${escapeHtml(e.entity_id)}.html">詳細情報を見る →</a>${link}</div></article>`;
@@ -54,7 +57,8 @@ function renderDirectory(shell,datasets){
 }
 const data=n=>readFileSync(new URL('../data/canonical/v1.2-proposed/'+n+'.csv',import.meta.url),'utf8');
 const shell=readFileSync(new URL('../templates/explore-shell.html',import.meta.url),'utf8');
-const html=renderDirectory(shell,{entities:data('entities'),offerings:data('offerings'),locations:data('locations'),location_entities:data('location_entities'),entity_relation_tags:data('entity_relation_tags')});
+const correction=JSON.parse(readFileSync(new URL('../data/review/issue-26/dogal-online-sales-correction.json',import.meta.url),'utf8'));
+const html=renderDirectory(shell,{entities:data('entities'),offerings:data('offerings'),locations:data('locations'),location_entities:data('location_entities'),entity_relation_tags:data('entity_relation_tags'),correction});
 const path=new URL('../explore.html',import.meta.url);
 if(process.argv.includes('--check')){if(readFileSync(path,'utf8')!==html){console.error('FAIL: directory HTML is out of sync');process.exit(1)}console.log('PASS: 92-card directory reproducibly generated')}
 else{writeFileSync(path,html,'utf8');console.log('Generated 92 Entity directory cards')}

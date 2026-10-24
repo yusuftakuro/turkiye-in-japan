@@ -9,7 +9,7 @@ OFF007,ENT006,food_service,トルコ雑貨・絨毯等の販売,available,verifi
 OFF008,ENT007,food_service,トルコ料理の飲食提供,available,verified,2026-10-03
 OFF009,ENT008,food_service,ケバブ・トルコ飲料・菓子の提供,unknown,unverified,2026-10-03
 OFF010,ENT009,retail,トルコ食品・雑貨の販売,available,verified,2026-10-03
-OFF011,ENT010,retail,トルコ食品・飲料のオンライン販売,available,verified,2026-10-03
+OFF011,ENT010,retail,トルコ食品・飲料のオンライン販売,unavailable,verified,2026-10-25
 OFF012,ENT011,retail,キリム・絨毯等の販売,available,verified,2026-10-03
 OFF013,ENT012,retail,キリム・ラグ・ランプの販売,available,verified,2026-10-03
 OFF014,ENT040,wholesale,キリム・絨毯・雑貨の輸入卸売,available,verified,2026-10-03

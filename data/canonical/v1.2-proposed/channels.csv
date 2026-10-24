@@ -1,6 +1,6 @@
 channel_id,entity_id,channel_type,availability_status,verification_status,verified_at,url
 CH001,ENT009,online_shop,available,verified,2026-10-03,https://torukokan.com/
-CH002,ENT010,online_shop,available,verified,2026-10-03,https://dogal.jp/
+CH002,ENT010,online_shop,unavailable,verified,2026-10-25,https://dogal.jp/
 CH003,ENT011,online_shop,available,verified,2026-10-03,https://www.kilim.jp/
 CH051,ENT038,online_shop,available,verified,2026-10-03,https://www.kilim.jp/
 CH004,ENT011,in_person,available,verified,2026-10-03,

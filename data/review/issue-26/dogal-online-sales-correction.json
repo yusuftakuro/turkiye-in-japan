@@ -1,0 +1,11 @@
+{
+  "entity_id": "ENT010",
+  "offering_id": "OFF011",
+  "channel_id": "CH002",
+  "baseline_status": "available",
+  "candidate_status": "unavailable",
+  "closure_date": "2026-05-31",
+  "source_url": "https://dogal.jp/",
+  "checked_date_jst": "2026-10-25",
+  "source_note": "公式トップページにオンライン販売終了日とカフェ営業継続の区別を明記。ページ内に旧商品一覧も残る。"
+}
