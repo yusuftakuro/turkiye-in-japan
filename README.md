@@ -1,58 +1,40 @@
-# Türkiye in Japan — UI starter v0.1
+# Türkiye in Japan
 
-**Status:** UX / development baseline, not a live or complete service.
-**Source of truth:** Türkiye in Japan — SSOT v1.0.
-**Data:** Limited, source-grounded examples from the 2026-10-03 pilot; not the full SSOT v1 migrated fixture. Confirm current operating status on each provider's official page.
+日本にあるトルコ関連の店舗・団体・文化施設・講座などの情報を整理し、検索できる静的Webサイト。
 
-## Pages
-- `index.html` — home and discovery entry points
-- `explore.html` — find by activity, topic, and keyword
-- `dogal.html` — online store vs closed physical location
-- `tokyo-camii.html` — one facility with multiple offerings
-- `events.html` — upcoming events empty state
+**Website:** https://yusuftakuro.github.io/turkiye-in-japan/
 
-The essential content is directly in HTML. Links and copy remain usable without JavaScript. Filters are progressive enhancement.
+## Current state (2026-10-24)
+
+- `main` contains the publicly visible site, including 92 Entity profiles and 115 related Offerings.
+- 51 Entity records are **provisional**. Inclusion is not proof of current opening hours, service availability or visitor access.
+- Searchable listing at `explore.html`; one static profile per Entity at `places/ENT###.html`.
+- Japanese, English and Turkish *interface* available through `?lang=ja|en|tr`; full translation and editorial QA of all source content are **not** complete.
+- Public-safe SSOT v1.2 **proposed** projection is in `data/canonical/v1.2-proposed/`. The full candidate fixture is separate in private Library. Never copy private/office-only addresses into this public repo.
+- Browser and directory tests run through GitHub Actions; the site's information is still subject to QA and publication readiness checks. Do not treat historical verification dates as current.
+- `noindex` is intentionally set for the preview stage; do not remove without an explicit release decision.
+
+## Operations and restart
+
+- [AGENTS.md](AGENTS.md) — short shared limits and workflow.
+- [CURRENT](docs/ops/CURRENT.md) — current responsibilities, exact issues, next pilot actions.
+- [START](docs/ops/START.md) — copy-ready setup for 00, 01 and 02.
+- [Coordination #23](https://github.com/yusuftakuro/turkiye-in-japan/issues/23) · [Producer #21](https://github.com/yusuftakuro/turkiye-in-japan/issues/21) · [QA #22](https://github.com/yusuftakuro/turkiye-in-japan/issues/22).
+
+Do not create three permanently running Work processes. The default is one coordinator Chat, one active production Work task, and an independent read-only QA Chat plus existing CI. Temporary parallel work must have disjoint files and measurable benefit.
 
 ## Local verification
 
 ```sh
 npm test
-python3 -m http.server 4173
+node scripts/check_directory.mjs
+node scripts/check_details.mjs
+node scripts/check_i18n.mjs
+python3 scripts/check_canonical_public_v12.py
 ```
 
-Open http://localhost:4173/ in a browser — **not** a local file preview in ChatGPT.
+`node scripts/check_i18n_browser.mjs` additionally requires headless Chromium. CI success alone does not prove the deployment is live or user-facing information is current.
 
-## GitHub Pages publication
+## Release
 
-The site needs no dependency installation or build tool. Host directly from GitHub Pages (no Netlify).
-
-1. Set the repository `yusuftakuro/turkiye-in-japan` to **Public** on GitHub Settings > General > Danger Zone > Change visibility. All repository source, history, and issues become public.
-2. Open Settings > Pages > Build and deployment.
-3. Source: **Deploy from a branch**. Branch: **main**; folder: **/(root)**. Save.
-4. Wait for GitHub Pages to show a live HTTPS URL. Verify it opens on iPhone Safari.
-
-The URL should normally take the form `https://yusuftakuro.github.io/turkiye-in-japan/`, but **do not treat it as live until its HTTP status and actual page contents have been verified**.
-
-Because the website is intentionally static, all navigation uses relative links and works under the `/turkiye-in-japan/` project path.
-
-## Required acceptance gates
-
-- `npm test` / GitHub Actions pass.
-- HTML body displays without JavaScript.
-- HOME → Explore → Dogal (and Tokyo Camii, Events) works.
-- No broken CSS/JS requests or uncaught browser errors.
-- 320–430px viewport: no major overflow / missing content.
-- The live HTTPS URL is confirmed accessible.
-- The user checks the same URL in iPhone Safari and accepts it.
-
-A CI result or HTML file existing on GitHub is **not** evidence that the live site is working.
-
-## Development policy
-
-- Chat: scope, decisions, specification.
-- GitHub Issues: testable work units.
-- Feature branch + PR: code changes and automated checks.
-- The published `main` branch is the last accepted state.
-- No claim of release success without a real URL and a user-visible validation.
-
-Do not import the malformed original pilot P013/P057 rows as canonical data. No guessed identities, addresses, availability, translated text, or event dates.
+Changes use a bounded branch → PR → CI → independent QA where useful → 00 routing → merge → public-site verification process. Major spec, identity, privacy, rights, canonical schema or general-public release changes require Owner decision. Site deployment is handled by GitHub Pages; there is no new backend or database service in this stage.
